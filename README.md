@@ -6,15 +6,14 @@ RapidScan is an innovative product bringing the power of backend services direct
 
 For guides on how to get started with RapidScan, check out the links below.
 
-- [RapidScan Quick Start Guide](https://www.google.com)
-- [Bluetooth LE Guide](https://www.google.com)
-- [Bluetooth SPP Guide](https://www.google.com)
+- [RapidScan Quick Start Guide](https://github.com/InfinitePeripherals/RapidScan/blob/main/docs/IPC-RapidScan-QuickStart-1.3.pdf)
+- [Bluetooth SPP Guide](https://github.com/InfinitePeripherals/RapidScan/blob/main/docs/IPC-RapidScan-SPP-1.4.pdf)
 
 ## Documentation
 
 For a more in-depth look at RiSL and its capabilities, check out the programming guide below.
 
-- [RiSL Programming Guide](https://www.google.com)
+- [RiSL Programming Guide](https://github.com/InfinitePeripherals/RapidScan/blob/main/docs/IPC-RapidScan-RiSL-1.3.pdf)
 
 ## Getting Help
 
@@ -23,4 +22,6 @@ For a more in-depth look at RiSL and its capabilities, check out the programming
 
 ## Demo Apps
 
+- MQTT Dashboard Demo - [Dashboard](https://airscan.ipcmobile.com/)
+- BLE Demo App - [Overview]()
 - C# Demo App - [Overview]()
