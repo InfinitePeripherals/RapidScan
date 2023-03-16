@@ -1,5 +1,5 @@
 # RapidScan
-![alt text](https://github.com/InfinitePeripherals/RapidScan/edit/main/docs/img/RapidScanGlobe.png?raw=true)
+![alt text](https://github.com/InfinitePeripherals/RapidScan/blob/main/docs/img/RapidScanGlobe.png?raw=true)
 
 RapidScan is an innovative product bringing the power of backend services directly to the Halo without the need for frontend Android development. RapidScan will forward barcodes or camera image (+the selected action) to the appropriate backend services using Bluetooth, BLE, WiFi+REST, or WiFi+MQTT for processing. These services can then respond with a "card" describing what to display on the Halo's screen using a simple markup language called RiSL (Ring Scanner Language).
 
