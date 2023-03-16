@@ -14,7 +14,9 @@ RapidScan is an innovative product bringing the power of backend services direct
 | CompanionMode | RapidScan sends Scans/Pics to a connected device like a Mac, PC, IOS, or Android phone.  The connected device can thin run BusinessLogic and compose a HaloCard to display |
 | RISL (Ring Scanner Language) | a simple markup language that defines screens to show or printjobs to print on the HaloRing |
 | RapidConnect | RapidScan can be easily configured using QR codes.  A QR Code can define verbs, endpoints, and MagicFilters |
-| MagicFilter | Any ScanAction can have an associated MagicFilter to help pick the right barcode from they many that might be present.  MagicFilters are written in javascript and can be as simple as only allowing certain symbologies to as complex as you can dream (i.e. USPS label verfication).  A MagicFilter also can take raw a raw scan and convert to a desired output i.e. append/prepend, scrub, alter, format as JSON etc.  Several good examples: Legacy system require barcodes output in a specific format;  A REST service might want the scan in JSON format etc. | 
+| MagicFilter | Any ScanAction can have an associated MagicFilter to help pick the right barcode from they many that might be present.  MagicFilters are written in javascript and can be as simple as only allowing certain symbologies to as complex as you can dream (i.e. USPS label verfication).  A MagicFilter also can take raw a raw scan and convert to a desired output i.e. append/prepend, scrub, alter, format as JSON etc.  Several good examples: Legacy system require barcodes output in a specific format;  A REST service might want the scan in JSON format etc.
+
+Furthermore, MagicFilters can silently reject barcodes and leave the scanner on.  This allows users to get the right barcode type without annoying "Invalid Barcode" popups and re-scans. |
 
 ## Getting Started
 
