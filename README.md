@@ -9,10 +9,12 @@ RapidScan is an innovative product bringing the power of backend services direct
 | Concept    | Description                                                                                                |
 | ---------- | ---------------------------------------------------------------------------------------------------------- |
 | HaloCard   | A "card" or "screen" to display on the HaloRing.  Can include buttons, graphics, labels etc.  Can also include a ZPL instructions to print |
-| Verb / ScanAction | A verb/scan action is a menu item that the user selected prior to scanning or picture taken.  Examples might include Price Lookup, Warranty Lookup etc. The ScanActions are configured by MDM or by scanning a QR Config Code|
+| Verb / ScanAction | A verb/scan action is a menu item that the user selectd prior to scanning or picture taken.  Examples might include Price Lookup, Warranty Lookup etc. The ScanActions are configured by MDM or by scanning a QR Config Code.  Whereas old art scanners just forward barcode+symbology, RapidScan forwards barcode+symbology+verb so the upstream system can route to the appriopiate buisiness logic.|
 | SmartMode  | RapidScan sends Scans/Pics to Backend Systems using WIFI + REST/MQTT. These system then answer with a HaloCard to display (after BusinessLogic). |
-| CompanionMode | RapidScan sends Scans/Pics to a connected device like a PC, IOS, or Android phone.  The connected device can thin run BusinessLogic and compose a HaloCard to display |
-| RISL (Ring Scanner Language) | - a simple markup language that defines screens to show or printjobs to print on the HaloRing |
+| CompanionMode | RapidScan sends Scans/Pics to a connected device like a Mac, PC, IOS, or Android phone.  The connected device can thin run BusinessLogic and compose a HaloCard to display |
+| RISL (Ring Scanner Language) | a simple markup language that defines screens to show or printjobs to print on the HaloRing |
+| RapidConnect | RapidScan can be easily configured using QR codes.  A QR Code can define verbs, endpoints, and MagicFilters |
+| MagicFilter | Any ScanAction can have an associated MagicFilter to help pick the right barcode from they many that might be present.  MagicFilters are written in javascript and can be as simple as only allowing certain symbologies to as complex as you can dream (i.e. USPS label verfication).  A MagicFilter also can take raw a raw scan and convert to a desired output i.e. append/prepend, scrub, alter, format as JSON etc.  Several good examples: Legacy system require barcodes output in a specific format;  A REST service might want the scan in JSON format etc. | 
 
 ## Getting Started
 
