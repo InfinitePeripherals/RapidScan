@@ -1,0 +1,58 @@
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\obj\Debug\AirscanDemo.csproj.AssemblyReference.cache
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\obj\Debug\AirscanDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\obj\Debug\AirscanMQTTDemo.Properties.Resources.resources
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\obj\Debug\AirscanDemo.csproj.GenerateResource.cache
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\obj\Debug\AirscanDemo.csproj.CoreCompileInputs.cache
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\bin\Debug\AirscanMQTTDemo.exe.config
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\bin\Debug\AirscanMQTTDemo.exe
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\bin\Debug\AirscanMQTTDemo.pdb
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\bin\Debug\MQTTnet.dll
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\bin\Debug\QRCoder.dll
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\bin\Debug\System.Security.AccessControl.dll
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\bin\Debug\System.Security.Permissions.dll
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\bin\Debug\MQTTnet.xml
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\bin\Debug\System.Security.AccessControl.xml
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\bin\Debug\System.Security.Permissions.xml
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\obj\Debug\AirscanDemo.csproj.CopyComplete
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\obj\Debug\AirscanMQTTDemo.exe
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\obj\Debug\AirscanMQTTDemo.pdb
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\bin\Debug\Jil.dll
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\bin\Debug\Sigil.dll
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\bin\Debug\Jil.xml
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\bin\Debug\Sigil.xml
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\bin\Debug\Resources\AirScanLogoFinalOff.png
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\bin\Debug\Resources\AirScanLogoFinalOn.png
+C:\Users\John\source\repos\AirScanGitHub\AirscanMQTTDemo\obj\Debug\Airscan.FormMain.resources
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\bin\Debug\Resources\AirScanLogoFinalOff.png
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\bin\Debug\Resources\AirScanLogoFinalOn.png
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\bin\Debug\AirscanMQTTDemo.exe.config
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\bin\Debug\AirscanMQTTDemo.exe
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\bin\Debug\AirscanMQTTDemo.pdb
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\bin\Debug\Jil.dll
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\bin\Debug\MQTTnet.dll
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\bin\Debug\QRCoder.dll
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\bin\Debug\Sigil.dll
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\bin\Debug\System.Security.AccessControl.dll
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\bin\Debug\System.Security.Permissions.dll
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\bin\Debug\Jil.xml
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\bin\Debug\MQTTnet.xml
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\bin\Debug\Sigil.xml
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\bin\Debug\System.Security.AccessControl.xml
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\bin\Debug\System.Security.Permissions.xml
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\obj\Debug\AirscanDemo.csproj.AssemblyReference.cache
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\obj\Debug\AirscanDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\obj\Debug\Airscan.FormMain.resources
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\obj\Debug\AirscanMQTTDemo.Properties.Resources.resources
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\obj\Debug\AirscanDemo.csproj.GenerateResource.cache
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\obj\Debug\AirscanDemo.csproj.CoreCompileInputs.cache
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\obj\Debug\AirscanDemo.csproj.CopyComplete
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\obj\Debug\AirscanMQTTDemo.exe
+C:\Users\John\Desktop\AirScan GitHub\AirScan\Sample\C#+EmbeddedMQTT+Echo\obj\Debug\AirscanMQTTDemo.pdb
