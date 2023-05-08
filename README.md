@@ -20,13 +20,13 @@ Rapid Development: *This is a "NO HALORING DEVELOPMENT NEEDED" path.*
 
 For guides on how to get started with RapidScan, check out the links below.
 
-- [RapidScan Quick Start Guide](https://github.com/InfinitePeripherals/RapidScan/blob/main/docs/IPC-RapidScan-QuickStart-1.3.pdf)
+- [RapidScan Quick Start Guide](https://github.com/InfinitePeripherals/RapidScan/blob/main/docs/IPC-RapidScan-QuickStart-1.4.pdf)
 
 ## Documentation
 
 For a more in-depth look at RiSL and its capabilities, check out the programming guide below.
 
-- [RiSL Programming Guide](https://github.com/InfinitePeripherals/RapidScan/blob/main/docs/IPC-RapidScan-RiSL-1.3.pdf)
+- [RiSL Programming Guide](https://github.com/InfinitePeripherals/RapidScan/blob/main/docs/IPC-RapidScan-RiSL-1.4.pdf)
 
 ## Getting Help
 
