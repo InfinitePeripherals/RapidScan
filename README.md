@@ -21,7 +21,6 @@ Rapid Development: *This is a "NO HALORING DEVELOPMENT NEEDED" path.*
 For guides on how to get started with RapidScan, check out the links below.
 
 - [RapidScan Quick Start Guide](https://github.com/InfinitePeripherals/RapidScan/blob/main/docs/IPC-RapidScan-QuickStart-1.3.pdf)
-- [Bluetooth SPP Guide](https://github.com/InfinitePeripherals/RapidScan/blob/main/docs/IPC-RapidScan-SPP-1.4.pdf)
 
 ## Documentation
 
@@ -37,5 +36,6 @@ For a more in-depth look at RiSL and its capabilities, check out the programming
 ## Demo Apps
 
 - MQTT Dashboard Demo - [Dashboard](https://airscan.ipcmobile.com/)
-- BLE Demo App - [Overview]()
-- C# Demo App - [Overview]()
+  - This dashboard was made to allow you to demo RapidScan functionality without your own backend system. It acts as a test MQTT server that allows you to receive barcodes/images and send back RiSL cards. You can use this tool to customize your own RiSL cards or see some of our premade ones.
+- C# Demo App - [Overview](https://github.com/InfinitePeripherals/RapidScan/tree/main/demos/C%23%2BEmbeddedMQTT%2BEcho)
+  - This is a demo Windows application that runs an MQTT server that you can pair RapidScan to by scanning an on-screen QR Code. Once paired the application has a simple echo job that will receive scanned barcodes and return back a RiSL card with the barcode type & data. 
