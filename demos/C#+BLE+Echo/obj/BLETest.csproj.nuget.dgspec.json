@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/lucasnetal/Desktop/AirScan/GitHub/demos/C#+BLE+Echo/BLETest.csproj": {}
+  },
+  "projects": {
+    "/Users/lucasnetal/Desktop/AirScan/GitHub/demos/C#+BLE+Echo/BLETest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/lucasnetal/Desktop/AirScan/GitHub/demos/C#+BLE+Echo/BLETest.csproj",
+        "projectName": "BLETest",
+        "projectPath": "/Users/lucasnetal/Desktop/AirScan/GitHub/demos/C#+BLE+Echo/BLETest.csproj",
+        "packagesPath": "/Users/lucasnetal/.nuget/packages/",
+        "outputPath": "/Users/lucasnetal/Desktop/AirScan/GitHub/demos/C#+BLE+Echo/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/lucasnetal/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Microsoft.Windows.SDK.Contracts": {
+              "target": "Package",
+              "version": "[10.0.22621.755, )"
+            },
+            "Plugin.BluetoothLE": {
+              "target": "Package",
+              "version": "[6.3.0.19, )"
+            },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.4.3, )"
+            },
+            "nexus.core": {
+              "target": "Package",
+              "version": "[0.34.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
