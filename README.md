@@ -22,6 +22,7 @@ For guides on how to get started with RapidScan, check out the links below.
 
 - [RapidScan Quick Start Guide](https://github.com/InfinitePeripherals/RapidScan/blob/main/docs/IPC-RapidScan-QuickStart-1.4.pdf)
 - [RapidScan SPP Guide](https://github.com/InfinitePeripherals/RapidScan/blob/main/docs/IPC-RapidScan-SPP-1.4.pdf)
+- [RapidScan BLE Guide](https://github.com/InfinitePeripherals/RapidScan/blob/main/docs/IPC-RapidScan-BLE-1.4.pdf)
 
 ## Documentation
 
@@ -29,16 +30,22 @@ For a more in-depth look at RiSL and its capabilities, check out the programming
 
 - [RiSL Programming Guide](https://github.com/InfinitePeripherals/RapidScan/blob/main/docs/IPC-RapidScan-RiSL-1.4.pdf)
 
-## Getting Help
-
-- If you have questions, email us at [mobilesupport@ipcmobile.com](mailto:mobilesupport@ipcmobile.com)
-- You can also contact Infinite Peripherals at 001.949.222.0300
-
 ## Demo Apps
 
 - MQTT Dashboard Demo - [Dashboard](https://airscan.ipcmobile.com/)
   - This dashboard was made to allow you to demo RapidScan functionality without your own backend system. It acts as a test MQTT server that allows you to receive barcodes/images and send back RiSL cards. You can use this tool to customize your own RiSL cards or see some of our premade ones.
-- C# MQTT Demo App - [Overview](https://github.com/InfinitePeripherals/RapidScan/tree/main/demos/C%23%2BEmbeddedMQTT%2BEcho)
+- C# MQTT Demo App - [Project](https://github.com/InfinitePeripherals/RapidScan/tree/main/demos/C%23%2BEmbeddedMQTT%2BEcho)
   - This is a demo Windows application that runs a MQTT server that you can pair RapidScan to by scanning an on-screen QR Code. Once paired the application has a simple echo job that will receive scanned barcodes and return back a RiSL card with the barcode type & data. 
-- C# BLE Demo App - [Overview](https://github.com/InfinitePeripherals/RapidScan/tree/main/demos/C%23%2BBLE%2BEcho)
+- C# BLE Demo App - [Project](https://github.com/InfinitePeripherals/RapidScan/tree/main/demos/C%23%2BBLE%2BEcho)
   - This is a demo Windows application that runs a BLE server that you can pair RapidScan to by scanning an on-screen QR Code. Once paired the application has a simple echo job that will receive scanned barcodes and return back a RiSL card with the barcode type & data. 
+
+## Companions
+
+RapidScan can be used in Companion Mode by connecting to an iOS or Android device over BLE. Using one of our native SDKs, apps can easily receive barcodes and respond back with RiSL cards. The SDKs also handle the BLE pairing and connection. Check out our Companion SDKs for a more in-depth look with sample projects and documenation.
+
+- iOS Companion SDK - [SDK](https://github.com/InfinitePeripherals/RapidScan/tree/main/RapidScan%2BCompanion%2BiOS)
+
+## Getting Help
+
+- If you have questions, email us at [mobilesupport@ipcmobile.com](mailto:mobilesupport@ipcmobile.com)
+- You can also contact Infinite Peripherals at 001.949.222.0300
