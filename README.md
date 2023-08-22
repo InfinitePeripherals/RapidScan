@@ -1,7 +1,7 @@
 # RapidScan
 ![alt text](https://github.com/InfinitePeripherals/RapidScan/blob/main/docs/img/RapidScanGlobe.png?raw=true)
 
-RapidScan is an innovative product bringing the power of backend services directly to the HaloRing (no frontend Android development required). RapidScan will forward barcodes or camera image (+the selected action) to the appropriate backend services using Bluetooth, BLE, WiFi+REST, or WiFi+MQTT for processing. These services can then respond with a "card" describing what to display on the Halo's screen using a simple markup language called RiSL (Ring Scanner Language).
+RapidScan is an innovative product bringing the power of backend services directly to the HaloRing (no frontend Android development required). RapidScan will forward barcodes or camera images (+ the selected action) to the appropriate backend services using Bluetooth, BLE, WiFi+REST, or WiFi+MQTT for processing. These services can then respond with a "card" describing what to display on the Halo's screen using a simple markup language called RiSL (Ring Scanner Language).
 
 Rapid Development: *This is a "NO HALORING DEVELOPMENT NEEDED" path.*
 
@@ -43,7 +43,7 @@ For a more in-depth look at RiSL and its capabilities, check out the programming
 
 RapidScan can be used in Companion Mode by connecting to an iOS or Android device over BLE. Using one of our native SDKs, apps can easily receive barcodes and respond back with RiSL cards. The SDKs also handle the BLE pairing and connection. Check out our Companion SDKs for a more in-depth look with sample projects and documenation.
 
-- iOS Companion SDK - [SDK](https://github.com/InfinitePeripherals/RapidScan/tree/main/RapidScan%2BCompanion%2BiOS)
+- iOS Companion SDK - [SDK](https://github.com/InfinitePeripherals/RapidScan/tree/main/RapidScan-Companion-iOS)
 
 ## Getting Help
 
