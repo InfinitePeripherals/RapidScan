@@ -174,7 +174,7 @@ namespace BLETest
         {
             // QR Code Payload To Connect to this Server
             //string barcode = "BLE {\"action\":\"config\",\"command\":{\"bleService\":\"<uuid>\"}}";
-            string barcode = "BLE {\"action\":\"config\",\"command\":{\"verbs\":[],\"mode\":\"ble\",\"bleService\":\"<uuid>\"}}";
+            string barcode = "{\"action\":\"config\",\"command\":{\"verbs\":[],\"mode\":\"ble\",\"bleService\":\"<uuid>\"}}";
             barcode =barcode.Replace("<uuid>", serverUUID.ToString());
             return barcode;
         }
