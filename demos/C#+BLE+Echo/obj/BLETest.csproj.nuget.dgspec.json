@@ -1,26 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/lucasnetal/Desktop/AirScan/GitHub/demos/C#+BLE+Echo/BLETest.csproj": {}
+    "\\\\Mac\\Home\\Desktop\\AirScan\\GitHub\\demos\\C#+BLE+Echo\\BLETest.csproj": {}
   },
   "projects": {
-    "/Users/lucasnetal/Desktop/AirScan/GitHub/demos/C#+BLE+Echo/BLETest.csproj": {
+    "\\\\Mac\\Home\\Desktop\\AirScan\\GitHub\\demos\\C#+BLE+Echo\\BLETest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/lucasnetal/Desktop/AirScan/GitHub/demos/C#+BLE+Echo/BLETest.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\AirScan\\GitHub\\demos\\C#+BLE+Echo\\BLETest.csproj",
         "projectName": "BLETest",
-        "projectPath": "/Users/lucasnetal/Desktop/AirScan/GitHub/demos/C#+BLE+Echo/BLETest.csproj",
-        "packagesPath": "/Users/lucasnetal/.nuget/packages/",
-        "outputPath": "/Users/lucasnetal/Desktop/AirScan/GitHub/demos/C#+BLE+Echo/obj/",
+        "projectPath": "\\\\Mac\\Home\\Desktop\\AirScan\\GitHub\\demos\\C#+BLE+Echo\\BLETest.csproj",
+        "packagesPath": "C:\\Users\\lucasnetal\\.nuget\\packages\\",
+        "outputPath": "\\\\Mac\\Home\\Desktop\\AirScan\\GitHub\\demos\\C#+BLE+Echo\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/lucasnetal/.config/NuGet/NuGet.Config"
+          "C:\\Users\\lucasnetal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net48"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,6 +59,9 @@
       },
       "runtimes": {
         "win": {
+          "#import": []
+        },
+        "win-arm64": {
           "#import": []
         },
         "win-x64": {

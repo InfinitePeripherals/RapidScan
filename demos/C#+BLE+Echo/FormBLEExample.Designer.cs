@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
             "",
             "BLE",
             "xx:xx:xx:xx",
@@ -107,7 +107,7 @@
             this.lstScanners.GridLines = true;
             this.lstScanners.HideSelection = false;
             this.lstScanners.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem2});
+            listViewItem1});
             this.lstScanners.Location = new System.Drawing.Point(0, 2);
             this.lstScanners.Name = "lstScanners";
             this.lstScanners.Size = new System.Drawing.Size(654, 397);

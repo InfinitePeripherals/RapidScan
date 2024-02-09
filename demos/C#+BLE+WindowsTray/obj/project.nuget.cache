@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "87kauPjYWmN9OQi4dnOqwmPgQCkk276OpT1BOcT6HYo9peCauZTyL4+uhzG9PV4R/co/HQ1yMOV1vt1Pt8VG4g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Lucas\\Desktop\\RapidScan-main\\demos\\C#+BLE+Echo\\BLETest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lucas\\.nuget\\packages\\inputsimulator\\1.0.4\\inputsimulator.1.0.4.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\microsoft.windows.sdk.contracts\\10.0.22621.755\\microsoft.windows.sdk.contracts.10.0.22621.755.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\nexus.core\\0.34.0\\nexus.core.0.34.0.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\plugin.bluetoothle\\6.3.0.19\\plugin.bluetoothle.6.3.0.19.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\qrcoder\\1.4.3\\qrcoder.1.4.3.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\system.reactive\\4.1.5\\system.reactive.4.1.5.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.3.0\\system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\system.runtime.windowsruntime\\4.6.0\\system.runtime.windowsruntime.4.6.0.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\system.runtime.windowsruntime.ui.xaml\\4.6.0\\system.runtime.windowsruntime.ui.xaml.4.6.0.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+    "C:\\Users\\Lucas\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
