@@ -165,8 +165,15 @@ class MainActivity : AppCompatActivity(), RSCompanionDelegate {
         companion.stopBleServer()
     }
 
+    private fun setStatusText(text: String) {
+        runOnUiThread {
+            statusTextView.text = text
+        }
+    }
+
     override fun rsCompanionState(state: RSCompanionState) {
         Log.d(TAG, "Companion state: $state")
+        setStatusText("$state")
 
         if (state == RSCompanionState.READY) {
             /*
@@ -183,13 +190,14 @@ class MainActivity : AppCompatActivity(), RSCompanionDelegate {
 
     override fun rsCompanionConnectedHalo(mac: String) {
         Log.d(TAG, "Halo connected: $mac")
-
+        setStatusText("Halo Connected")
 
         connectedDevices.add(mac)
     }
 
     override fun rsCompanionDisconnectedHalo(mac: String) {
         Log.d(TAG, "Halo disconnected: $mac")
+        setStatusText("Halo Disconnected")
 
         connectedDevices.remove(mac)
     }
@@ -222,12 +230,6 @@ class MainActivity : AppCompatActivity(), RSCompanionDelegate {
     // Check runtime permissions
     private fun checkBluetoothPermissions() {
         val permissionsToRequest = mutableListOf<String>()
-
-        if (ContextCompat.checkSelfPermission(this, Manifest.permission.BLUETOOTH_ADMIN)
-            != PackageManager.PERMISSION_GRANTED
-        ) {
-            permissionsToRequest.add(Manifest.permission.BLUETOOTH_ADMIN)
-        }
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
             if (ContextCompat.checkSelfPermission(this, Manifest.permission.BLUETOOTH_ADVERTISE)
