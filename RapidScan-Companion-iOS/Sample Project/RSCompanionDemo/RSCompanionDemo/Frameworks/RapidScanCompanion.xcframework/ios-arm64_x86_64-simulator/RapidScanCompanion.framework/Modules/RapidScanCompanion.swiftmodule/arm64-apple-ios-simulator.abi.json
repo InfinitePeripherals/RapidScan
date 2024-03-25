@@ -2560,6 +2560,42 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "peripheralManager",
+            "printedName": "peripheralManager(_:didReceiveRead:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBPeripheralManager",
+                "printedName": "CoreBluetooth.CBPeripheralManager",
+                "usr": "c:objc(cs)CBPeripheralManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBATTRequest",
+                "printedName": "CoreBluetooth.CBATTRequest",
+                "usr": "c:objc(cs)CBATTRequest"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@RapidScanCompanion@objc(cs)RSCompanion(im)peripheralManager:didReceiveReadRequest:",
+            "mangledName": "$s18RapidScanCompanion11RSCompanionC17peripheralManager_14didReceiveReadySo012CBPeripheralF0C_So12CBATTRequestCtF",
+            "moduleName": "RapidScanCompanion",
+            "objc_name": "peripheralManager:didReceiveReadRequest:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -2633,1159 +2669,1166 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 242,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "IntegerLiteral",
       "offset": 632,
       "length": 3,
       "value": "290"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "IntegerLiteral",
       "offset": 638,
       "length": 3,
       "value": "290"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 665,
       "length": 36,
       "value": "\"^StartCard|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 690,
       "length": 1,
       "value": "\"|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 700,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 926,
       "length": 11,
       "value": "\"^ShowCard\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 1255,
       "length": 19,
       "value": "\"^SaveCard|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 1273,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 1631,
       "length": 19,
       "value": "\"^LoadCard|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 1649,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 1967,
       "length": 52,
       "value": "\"{\"action\":\"risl\",\"command\":\"\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 2015,
       "length": 1,
       "value": "\"\"}\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 2322,
       "length": 25,
       "value": "\"^CardBackColor|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 2346,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 2667,
       "length": 15,
       "value": "\"^Font|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 2681,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 2699,
       "length": 24,
       "value": "\"|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 2712,
       "length": 9,
       "value": "\"#000000\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 2722,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 2771,
       "length": 7,
       "value": "\"|Bold\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 2841,
       "length": 12,
       "value": "\"|Underline\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 3018,
       "length": 21,
       "value": "\"^TextC|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 3030,
       "length": 1,
       "value": "\"|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 3038,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 3183,
       "length": 21,
       "value": "\"^TextL|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 3195,
       "length": 1,
       "value": "\"|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 3203,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 3349,
       "length": 21,
       "value": "\"^TextR|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 3361,
       "length": 1,
       "value": "\"|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 3369,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 3910,
       "length": 15,
       "value": "\"^Font|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 3924,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 3942,
       "length": 24,
       "value": "\"|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 3955,
       "length": 9,
       "value": "\"#000000\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 3965,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 4014,
       "length": 7,
       "value": "\"|Bold\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 4084,
       "length": 12,
       "value": "\"|Underline\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 4854,
       "length": 36,
       "value": "\"^TextL|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 4881,
       "length": 1,
       "value": "\"|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 4889,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 4933,
       "length": 36,
       "value": "\"^TextC|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 4960,
       "length": 1,
       "value": "\"|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 4968,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 5011,
       "length": 36,
       "value": "\"^TextR|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 5038,
       "length": 1,
       "value": "\"|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 5046,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 5625,
       "length": 61,
       "value": "\"^Button|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 5638,
       "length": 1,
       "value": "\"|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 5643,
       "length": 1,
       "value": "\"|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 5652,
       "length": 1,
       "value": "\"|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 5662,
       "length": 1,
       "value": "\"|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 5671,
       "length": 1,
       "value": "\"|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 5679,
       "length": 1,
       "value": "\"|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 5685,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 5940,
       "length": 17,
       "value": "\"^PlaySound|Good\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 6215,
       "length": 18,
       "value": "\"^PlaySound|Good2\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 6485,
       "length": 16,
       "value": "\"^PlaySound|Bad\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 6757,
       "length": 18,
       "value": "\"^PlaySound|Alert\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 7131,
       "length": 23,
       "value": "\"^Vibrate|\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 7153,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 7275,
       "length": 8,
       "value": "\"^Clear\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "IntegerLiteral",
       "offset": 7632,
       "length": 3,
       "value": "290"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "IntegerLiteral",
       "offset": 7645,
       "length": 3,
       "value": "210"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 7682,
       "length": 9,
       "value": "\"#0000FF\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "IntegerLiteral",
       "offset": 7720,
       "length": 2,
       "value": "34"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 7731,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "BooleanLiteral",
       "offset": 7748,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "BooleanLiteral",
       "offset": 7765,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "IntegerLiteral",
       "offset": 7799,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 7808,
       "length": 11,
       "value": "\"Symbology\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "IntegerLiteral",
       "offset": 7848,
       "length": 2,
       "value": "28"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 7859,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "BooleanLiteral",
       "offset": 7876,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "BooleanLiteral",
       "offset": 7894,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "IntegerLiteral",
       "offset": 7928,
       "length": 2,
       "value": "44"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "IntegerLiteral",
       "offset": 7976,
       "length": 2,
       "value": "34"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 7987,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "BooleanLiteral",
       "offset": 8004,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "BooleanLiteral",
       "offset": 8021,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "IntegerLiteral",
       "offset": 8055,
       "length": 2,
       "value": "90"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 8065,
       "length": 9,
       "value": "\"Barcode\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "IntegerLiteral",
       "offset": 8103,
       "length": 2,
       "value": "28"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 8114,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "BooleanLiteral",
       "offset": 8131,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "BooleanLiteral",
       "offset": 8149,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "IntegerLiteral",
       "offset": 8183,
       "length": 3,
       "value": "132"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "IntegerLiteral",
       "offset": 8406,
       "length": 3,
       "value": "290"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "IntegerLiteral",
       "offset": 8419,
       "length": 3,
       "value": "120"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 8456,
       "length": 9,
       "value": "\"#FF0000\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "IntegerLiteral",
       "offset": 8494,
       "length": 2,
       "value": "34"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 8505,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "BooleanLiteral",
       "offset": 8522,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "BooleanLiteral",
       "offset": 8539,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "IntegerLiteral",
       "offset": 8573,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 8582,
       "length": 7,
       "value": "\"Error\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "IntegerLiteral",
       "offset": 8618,
       "length": 2,
       "value": "28"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "StringLiteral",
       "offset": 8629,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "BooleanLiteral",
       "offset": 8646,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "BooleanLiteral",
       "offset": 8664,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislCard.swift",
       "kind": "IntegerLiteral",
       "offset": 8698,
       "length": 2,
       "value": "58"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislTextAlignment.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislTextAlignment.swift",
       "kind": "IntegerLiteral",
       "offset": 179,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislTextAlignment.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislTextAlignment.swift",
       "kind": "IntegerLiteral",
       "offset": 199,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislTextAlignment.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislTextAlignment.swift",
       "kind": "IntegerLiteral",
       "offset": 218,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislTextAlignment.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislTextAlignment.swift",
       "kind": "IntegerLiteral",
       "offset": 179,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislTextAlignment.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislTextAlignment.swift",
       "kind": "IntegerLiteral",
       "offset": 199,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislTextAlignment.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSRislTextAlignment.swift",
       "kind": "IntegerLiteral",
       "offset": 218,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
       "kind": "IntegerLiteral",
       "offset": 198,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
       "kind": "IntegerLiteral",
       "offset": 221,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
       "kind": "IntegerLiteral",
       "offset": 240,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
       "kind": "IntegerLiteral",
       "offset": 265,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
       "kind": "IntegerLiteral",
       "offset": 288,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
       "kind": "IntegerLiteral",
       "offset": 314,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
       "kind": "IntegerLiteral",
       "offset": 337,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
       "kind": "IntegerLiteral",
       "offset": 363,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
       "kind": "IntegerLiteral",
       "offset": 388,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
       "kind": "IntegerLiteral",
       "offset": 198,
       "length": 1,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
       "kind": "IntegerLiteral",
       "offset": 221,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
       "kind": "IntegerLiteral",
       "offset": 240,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
       "kind": "IntegerLiteral",
       "offset": 265,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
       "kind": "IntegerLiteral",
       "offset": 288,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
       "kind": "IntegerLiteral",
       "offset": 314,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
       "kind": "IntegerLiteral",
       "offset": 337,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
       "kind": "IntegerLiteral",
       "offset": 363,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanionState.swift",
       "kind": "IntegerLiteral",
       "offset": 388,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCommand.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCommand.swift",
       "kind": "StringLiteral",
       "offset": 216,
       "length": 6,
       "value": "\"risl\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
       "offset": 637,
       "length": 39,
       "value": "\"RSR:\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "IntegerLiteral",
       "offset": 659,
       "length": 5,
       "value": "10001"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "IntegerLiteral",
       "offset": 667,
       "length": 6,
       "value": "100000"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
       "offset": 675,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
       "offset": 933,
       "length": 138,
       "value": "\"{\"action\":\"config\",\"command\":{\"verbs\":[{\"name\":\"Scan\"}],\"mode\":\"ble\",\"bleService\":\"\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
       "offset": 1066,
       "length": 1,
       "value": "\"\"}}\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
       "offset": 1642,
       "length": 38,
       "value": "\"00009001-0000-1000-8000-00805f9b34fb\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
       "offset": 1732,
       "length": 38,
       "value": "\"00009002-0000-1000-8000-00805f9b34fb\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "BooleanLiteral",
       "offset": 2343,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "BooleanLiteral",
       "offset": 2961,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "BooleanLiteral",
       "offset": 3000,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "BooleanLiteral",
       "offset": 3267,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "BooleanLiteral",
       "offset": 3346,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "BooleanLiteral",
       "offset": 3385,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
       "offset": 3512,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "BooleanLiteral",
       "offset": 4673,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "BooleanLiteral",
       "offset": 4712,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "BooleanLiteral",
       "offset": 5472,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "BooleanLiteral",
       "offset": 5511,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
       "offset": 5902,
       "length": 8,
       "value": "\"^Clear\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "BooleanLiteral",
       "offset": 6263,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "BooleanLiteral",
       "offset": 6302,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
       "offset": 6674,
       "length": 8,
       "value": "\"^Clear\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "BooleanLiteral",
       "offset": 6910,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "BooleanLiteral",
       "offset": 6949,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
       "offset": 7159,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
       "offset": 7572,
       "length": 3,
       "value": "\",\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
       "offset": 7599,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
       "offset": 7626,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
       "offset": 7650,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
       "offset": 7672,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "IntegerLiteral",
       "offset": 7704,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "IntegerLiteral",
       "offset": 7741,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "IntegerLiteral",
       "offset": 7775,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "IntegerLiteral",
       "offset": 7808,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "IntegerLiteral",
       "offset": 7844,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "IntegerLiteral",
       "offset": 7880,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "IntegerLiteral",
       "offset": 8561,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/kylem\/Dropbox\/Infinite_Peripherals\/QuantumSDK\/iOS\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "IntegerLiteral",
       "offset": 8567,
       "length": 1,
       "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "Array",
+      "offset": 11749,
+      "length": 3,
+      "value": "[0]"
     }
   ]
 }

@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var qrCodeImageView: UIImageView!
     @IBOutlet weak var companionStatus: UILabel!
     
-    var preferedHalos: [String] = [String]()
+    var connectedHalos: [String] = [String]()
     
     let companion = RSCompanion()
 
@@ -31,16 +31,14 @@ class ViewController: UIViewController {
     
     @IBAction func actionClear() {
         // Sends a command to clear RapidScan's screen of all cards
-        self.companion.sendClearCommandToHalos(self.preferedHalos)
+        self.companion.sendClearCommandToHalos(self.connectedHalos)
     }
     
     @IBAction func actionSendRandomCard() {
-        // We're just sending a random card back
-        let rand = Int.random(in: 0...7)
-        
         let rislCard: RSRislCard
         
-        switch rand {
+        // We're just sending a random card back
+        switch Int.random(in: 0...7) {
         case 1:
             rislCard = RSRislCard(width: 290, height: 185)
             rislCard.setBackgroundColor("#FF0000")
@@ -124,11 +122,10 @@ class ViewController: UIViewController {
             rislCard.showCard()
         }
         
-        companion.sendRislCards([rislCard], toHalos: preferedHalos)
+        companion.sendRislCards([rislCard], toHalos: connectedHalos)
     }
     
     func sendBarcodeResponse(barcode: String, symbology: String) {
-
         // Just echo back the barcode and symbology
         let card1 = RSRislCard(width: 290, height: 150)
         card1.setBackgroundColor("#84D400")
@@ -137,7 +134,7 @@ class ViewController: UIViewController {
         card1.playGoodSound()
         card1.showCard()
         
-        self.companion.sendRislCards([card1], toHalos: preferedHalos)
+        self.companion.sendRislCards([card1])
     }
 }
 
@@ -150,13 +147,15 @@ extension ViewController: RSCompanionDelegate {
             self.companionStatus.text = "\(uuid)\nReady"
         }
         else if state == .disconnected  {
-            self.companion.startAdvertising()
+            if !self.connectedHalos.contains(uuid) {
+                self.connectedHalos.removeAll { $0 == uuid }
+            }
+            
             self.companionStatus.text = "\(uuid)\nDisconnected"
         }
         else if state == .connected {
-            // Test
-            if !self.preferedHalos.contains(uuid) {
-                self.preferedHalos.append(uuid)
+            if !self.connectedHalos.contains(uuid) {
+                self.connectedHalos.append(uuid)
             }
             
             self.companionStatus.text = "\(uuid)\nConnected"
