@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import CoreBluetooth
 import RapidScanCompanion
 
 class ViewController: UIViewController {
@@ -16,6 +17,9 @@ class ViewController: UIViewController {
     var connectedHalos: [String] = [String]()
     
     let companion = RSCompanion()
+    
+    // You can optionally specify a UUID instead of using the randomly generated UUID RSCompanion provides
+    //let companion = RSCompanion(serviceUUID: CBUUID(string: "f7b5a183-772f-4990-8b36-b98a4c40f890"))
 
     override func viewDidLoad() {
         super.viewDidLoad()
