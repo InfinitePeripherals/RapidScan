@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -54,22 +54,34 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahw-SR-LT2">
+                                <rect key="frame" x="16" y="515.33333333333337" width="361" height="302.66666666666663"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Qtz-wI-sXf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="0mB-SC-KBr"/>
                             <constraint firstItem="KEm-Nd-YGf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="7KQ-yW-E6x"/>
+                            <constraint firstItem="ahw-SR-LT2" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="AVA-Bd-i6n"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Qtz-wI-sXf" secondAttribute="trailing" constant="20" id="CC0-3m-gUq"/>
                             <constraint firstItem="Qtz-wI-sXf" firstAttribute="top" secondItem="1CR-ls-86O" secondAttribute="bottom" constant="20" id="Cee-X3-tIK"/>
                             <constraint firstItem="EtC-IO-dd4" firstAttribute="top" secondItem="KEm-Nd-YGf" secondAttribute="bottom" constant="8" symbolic="YES" id="Rpz-MD-uyo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ahw-SR-LT2" secondAttribute="trailing" constant="16" id="SAs-Wk-uRO"/>
                             <constraint firstItem="KEm-Nd-YGf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SHO-L4-4xJ"/>
                             <constraint firstItem="1CR-ls-86O" firstAttribute="top" secondItem="EtC-IO-dd4" secondAttribute="bottom" constant="40" id="gDo-J1-dGu"/>
+                            <constraint firstItem="ahw-SR-LT2" firstAttribute="top" secondItem="Qtz-wI-sXf" secondAttribute="bottom" constant="20" id="knA-hn-lK0"/>
                             <constraint firstItem="EtC-IO-dd4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qgV-AK-eKz"/>
                             <constraint firstItem="1CR-ls-86O" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qhb-FT-2ck"/>
+                            <constraint firstItem="ahw-SR-LT2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="t55-HI-dF5"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="companionLog" destination="ahw-SR-LT2" id="QBP-qi-nRm"/>
                         <outlet property="companionStatus" destination="Qtz-wI-sXf" id="x5b-mz-w8t"/>
                         <outlet property="qrCodeImageView" destination="1CR-ls-86O" id="knH-Mm-f5J"/>
                     </connections>
@@ -80,6 +92,9 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

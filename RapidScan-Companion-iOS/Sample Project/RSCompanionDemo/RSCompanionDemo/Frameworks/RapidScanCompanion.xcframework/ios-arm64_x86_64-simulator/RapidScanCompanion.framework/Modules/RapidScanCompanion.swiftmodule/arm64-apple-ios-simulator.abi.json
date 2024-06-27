@@ -1219,6 +1219,135 @@
             ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rsCompanionDidReceiveButtonPress",
+            "printedName": "rsCompanionDidReceiveButtonPress(_:serial:uuid:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RSButton",
+                "printedName": "RapidScanCompanion.RSButton",
+                "usr": "c:@M@RapidScanCompanion@E@RSButton"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@RapidScanCompanion@objc(pl)RSCompanionDelegate(im)rsCompanionDidReceiveButtonPress:serial:uuid:",
+            "mangledName": "$s18RapidScanCompanion19RSCompanionDelegateP02rsC21DidReceiveButtonPress_6serial4uuidyAA8RSButtonO_S2StF",
+            "moduleName": "RapidScanCompanion",
+            "genericSig": "<τ_0_0 where τ_0_0 : RapidScanCompanion.RSCompanionDelegate>",
+            "sugared_genericSig": "<Self where Self : RapidScanCompanion.RSCompanionDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rsCompanionDidReceiveRislButtonPress",
+            "printedName": "rsCompanionDidReceiveRislButtonPress(_:serial:uuid:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@RapidScanCompanion@objc(pl)RSCompanionDelegate(im)rsCompanionDidReceiveRislButtonPress:serial:uuid:",
+            "mangledName": "$s18RapidScanCompanion19RSCompanionDelegateP02rsC25DidReceiveRislButtonPress_6serial4uuidySS_S2StF",
+            "moduleName": "RapidScanCompanion",
+            "genericSig": "<τ_0_0 where τ_0_0 : RapidScanCompanion.RSCompanionDelegate>",
+            "sugared_genericSig": "<Self where Self : RapidScanCompanion.RSCompanionDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "rsCompanionDidReceiveVerbSelection",
+            "printedName": "rsCompanionDidReceiveVerbSelection(_:serial:uuid:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@RapidScanCompanion@objc(pl)RSCompanionDelegate(im)rsCompanionDidReceiveVerbSelection:serial:uuid:",
+            "mangledName": "$s18RapidScanCompanion19RSCompanionDelegateP02rsC23DidReceiveVerbSelection_6serial4uuidySS_S2StF",
+            "moduleName": "RapidScanCompanion",
+            "genericSig": "<τ_0_0 where τ_0_0 : RapidScanCompanion.RSCompanionDelegate>",
+            "sugared_genericSig": "<Self where Self : RapidScanCompanion.RSCompanionDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
@@ -1735,6 +1864,312 @@
             ],
             "usr": "s:SY",
             "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "RapidScanCompanion",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RSButton",
+        "printedName": "RSButton",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "left",
+            "printedName": "left",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RapidScanCompanion.RSButton.Type) -> RapidScanCompanion.RSButton",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RSButton",
+                    "printedName": "RapidScanCompanion.RSButton",
+                    "usr": "c:@M@RapidScanCompanion@E@RSButton"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RapidScanCompanion.RSButton.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RSButton",
+                        "printedName": "RapidScanCompanion.RSButton",
+                        "usr": "c:@M@RapidScanCompanion@E@RSButton"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@RapidScanCompanion@E@RSButton@RSButtonLeft",
+            "mangledName": "$s18RapidScanCompanion8RSButtonO4leftyA2CmF",
+            "moduleName": "RapidScanCompanion",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "center",
+            "printedName": "center",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RapidScanCompanion.RSButton.Type) -> RapidScanCompanion.RSButton",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RSButton",
+                    "printedName": "RapidScanCompanion.RSButton",
+                    "usr": "c:@M@RapidScanCompanion@E@RSButton"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RapidScanCompanion.RSButton.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RSButton",
+                        "printedName": "RapidScanCompanion.RSButton",
+                        "usr": "c:@M@RapidScanCompanion@E@RSButton"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@RapidScanCompanion@E@RSButton@RSButtonCenter",
+            "mangledName": "$s18RapidScanCompanion8RSButtonO6centeryA2CmF",
+            "moduleName": "RapidScanCompanion",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "right",
+            "printedName": "right",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(RapidScanCompanion.RSButton.Type) -> RapidScanCompanion.RSButton",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RSButton",
+                    "printedName": "RapidScanCompanion.RSButton",
+                    "usr": "c:@M@RapidScanCompanion@E@RSButton"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "RapidScanCompanion.RSButton.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RSButton",
+                        "printedName": "RapidScanCompanion.RSButton",
+                        "usr": "c:@M@RapidScanCompanion@E@RSButton"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@RapidScanCompanion@E@RSButton@RSButtonRight",
+            "mangledName": "$s18RapidScanCompanion8RSButtonO5rightyA2CmF",
+            "moduleName": "RapidScanCompanion",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RapidScanCompanion8RSButtonO11descriptionSSvp",
+            "mangledName": "$s18RapidScanCompanion8RSButtonO11descriptionSSvp",
+            "moduleName": "RapidScanCompanion",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RapidScanCompanion8RSButtonO11descriptionSSvg",
+                "mangledName": "$s18RapidScanCompanion8RSButtonO11descriptionSSvg",
+                "moduleName": "RapidScanCompanion",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RapidScanCompanion.RSButton?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RSButton",
+                    "printedName": "RapidScanCompanion.RSButton",
+                    "usr": "c:@M@RapidScanCompanion@E@RSButton"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18RapidScanCompanion8RSButtonO8rawValueACSgSi_tcfc",
+            "mangledName": "$s18RapidScanCompanion8RSButtonO8rawValueACSgSi_tcfc",
+            "moduleName": "RapidScanCompanion",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18RapidScanCompanion8RSButtonO8rawValueSivp",
+            "mangledName": "$s18RapidScanCompanion8RSButtonO8rawValueSivp",
+            "moduleName": "RapidScanCompanion",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18RapidScanCompanion8RSButtonO8rawValueSivg",
+                "mangledName": "$s18RapidScanCompanion8RSButtonO8rawValueSivg",
+                "moduleName": "RapidScanCompanion",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@RapidScanCompanion@E@RSButton",
+        "mangledName": "$s18RapidScanCompanion8RSButtonO",
+        "moduleName": "RapidScanCompanion",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
           }
         ]
       },
@@ -3625,6 +4060,69 @@
       "value": "7"
     },
     {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 185,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 224,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSButton.swift",
+      "kind": "StringLiteral",
+      "offset": 329,
+      "length": 6,
+      "value": "\"left\""
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSButton.swift",
+      "kind": "StringLiteral",
+      "offset": 377,
+      "length": 8,
+      "value": "\"center\""
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSButton.swift",
+      "kind": "StringLiteral",
+      "offset": 426,
+      "length": 7,
+      "value": "\"right\""
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 185,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 205,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 224,
+      "length": 1,
+      "value": "2"
+    },
+    {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCommand.swift",
       "kind": "StringLiteral",
       "offset": 216,
@@ -3830,98 +4328,273 @@
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 9141,
+      "offset": 9267,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 9168,
+      "offset": 9294,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 9195,
+      "offset": 9321,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 9219,
+      "offset": 9345,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 9241,
+      "offset": 9367,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "IntegerLiteral",
-      "offset": 9273,
+      "offset": 9399,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "IntegerLiteral",
-      "offset": 9310,
+      "offset": 9436,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "IntegerLiteral",
-      "offset": 9344,
+      "offset": 9470,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "IntegerLiteral",
-      "offset": 9377,
+      "offset": 9503,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "IntegerLiteral",
-      "offset": 9413,
+      "offset": 9539,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "IntegerLiteral",
-      "offset": 9449,
+      "offset": 9575,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "StringLiteral",
+      "offset": 9789,
+      "length": 21,
+      "value": "\"Invalid BLE message\""
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "StringLiteral",
+      "offset": 9984,
+      "length": 39,
+      "value": "\"Failed to convert JSON string to data\""
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10044,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "Array",
+      "offset": 10235,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "StringLiteral",
+      "offset": 10345,
+      "length": 7,
+      "value": "\"event\""
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "StringLiteral",
+      "offset": 10398,
+      "length": 36,
+      "value": "\"Event type missing or not a string\""
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10463,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "StringLiteral",
+      "offset": 10587,
+      "length": 8,
+      "value": "\"serial\""
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "StringLiteral",
+      "offset": 10641,
+      "length": 32,
+      "value": "\"Serial missing or not a string\""
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10702,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "StringLiteral",
+      "offset": 10838,
+      "length": 7,
+      "value": "\"value\""
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "StringLiteral",
+      "offset": 10927,
+      "length": 14,
+      "value": "\"verbSelected\""
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "StringLiteral",
+      "offset": 10987,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11169,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "StringLiteral",
+      "offset": 11225,
+      "length": 15,
+      "value": "\"buttonPressed\""
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "StringLiteral",
+      "offset": 11296,
+      "length": 8,
+      "value": "\"button\""
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11566,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "StringLiteral",
+      "offset": 11646,
+      "length": 31,
+      "value": "\"Invalid button value received\""
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "StringLiteral",
+      "offset": 11760,
+      "length": 14,
+      "value": "\"rislResponse\""
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "StringLiteral",
+      "offset": 11829,
+      "length": 15,
+      "value": "\"buttonPressed\""
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12031,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "StringLiteral",
+      "offset": 12121,
+      "length": 22,
+      "value": "\"Unhandled event type\""
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "StringLiteral",
+      "offset": 12235,
+      "length": 31,
+      "value": "\"Error decoding JSON: \""
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "StringLiteral",
+      "offset": 12265,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12302,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12719,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "IntegerLiteral",
-      "offset": 10130,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
-      "kind": "IntegerLiteral",
-      "offset": 10136,
+      "offset": 12725,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "Array",
-      "offset": 13318,
+      "offset": 15907,
       "length": 3,
       "value": "[0]"
     }

@@ -68,6 +68,9 @@ import _SwiftConcurrencyShims
 @objc public protocol RSCompanionDelegate {
   @objc func rsCompanionState(_ state: RapidScanCompanion.RSCompanionState, uuid: Swift.String)
   @objc func rsCompanionDidReceiveBarcode(_ barcode: Swift.String, symbology: Swift.String, serial: Swift.String, verb: Swift.String, uuid: Swift.String)
+  @objc func rsCompanionDidReceiveButtonPress(_ button: RapidScanCompanion.RSButton, serial: Swift.String, uuid: Swift.String)
+  @objc func rsCompanionDidReceiveRislButtonPress(_ button: Swift.String, serial: Swift.String, uuid: Swift.String)
+  @objc func rsCompanionDidReceiveVerbSelection(_ verb: Swift.String, serial: Swift.String, uuid: Swift.String)
 }
 @objc public enum RSCompanionState : Swift.Int {
   case unknown = -1
@@ -79,6 +82,19 @@ import _SwiftConcurrencyShims
   case resetting = 5
   case unauthorized = 6
   case unsupported = 7
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum RSButton : Swift.Int, Swift.CustomStringConvertible {
+  case left = 0
+  case center = 1
+  case right = 2
+  public var description: Swift.String {
+    get
+  }
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -127,3 +143,6 @@ extension RapidScanCompanion.RSRislTextAlignment : Swift.RawRepresentable {}
 extension RapidScanCompanion.RSCompanionState : Swift.Equatable {}
 extension RapidScanCompanion.RSCompanionState : Swift.Hashable {}
 extension RapidScanCompanion.RSCompanionState : Swift.RawRepresentable {}
+extension RapidScanCompanion.RSButton : Swift.Equatable {}
+extension RapidScanCompanion.RSButton : Swift.Hashable {}
+extension RapidScanCompanion.RSButton : Swift.RawRepresentable {}

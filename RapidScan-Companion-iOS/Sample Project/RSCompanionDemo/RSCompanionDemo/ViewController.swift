@@ -13,13 +13,14 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var qrCodeImageView: UIImageView!
     @IBOutlet weak var companionStatus: UILabel!
+    @IBOutlet weak var companionLog: UITextView!
     
     var connectedHalos: [String] = [String]()
     
-    let companion = RSCompanion()
+    //let companion = RSCompanion()
     
     // You can optionally specify a UUID instead of using the randomly generated UUID RSCompanion provides
-    //let companion = RSCompanion(serviceUUID: CBUUID(string: "f7b5a183-772f-4990-8b36-b98a4c40f890"))
+    let companion = RSCompanion(serviceUUID: CBUUID(string: "f7b5a183-772f-4990-8b36-b98a4c40f890"))
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -140,6 +141,14 @@ class ViewController: UIViewController {
         
         self.companion.sendRislCards([card1])
     }
+    
+    func prependLogText(_ newLine: String) {
+        DispatchQueue.main.async {
+            let currentText = self.companionLog.text ?? ""
+            let newText = newLine + "\n" + currentText
+            self.companionLog.text = newText
+        }
+    }
 }
 
 extension ViewController: RSCompanionDelegate {
@@ -173,8 +182,20 @@ extension ViewController: RSCompanionDelegate {
     }
     
     func rsCompanionDidReceiveBarcode(_ barcode: String, symbology: String, serial: String, verb: String, uuid: String) {
-        self.companionStatus.text = "\(uuid)\nBarcode: \(barcode)\nSymbology: \(symbology)\nSerial: \(serial)"
+        prependLogText("Barcode Scanned: \(barcode)\nSymbology: \(symbology)\nVerb: \(verb)")
         
         self.sendBarcodeResponse(barcode: barcode, symbology: symbology)
+    }
+    
+    func rsCompanionDidReceiveButtonPress(_ button: RapidScanCompanion.RSButton, serial: String, uuid: String) {
+        prependLogText("Halo Button Pressed: \(button)")
+    }
+    
+    func rsCompanionDidReceiveRislButtonPress(_ button: String, serial: String, uuid: String) {
+        prependLogText("RiSL Button Pressed: \(button)")
+    }
+    
+    func rsCompanionDidReceiveVerbSelection(_ verb: String, serial: String, uuid: String) {
+        prependLogText("Verb Selected: \(verb)")
     }
 }

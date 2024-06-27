@@ -300,6 +300,12 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+typedef SWIFT_ENUM(NSInteger, RSButton, open) {
+  RSButtonLeft = 0,
+  RSButtonCenter = 1,
+  RSButtonRight = 2,
+};
+
 @protocol RSCompanionDelegate;
 @class NSString;
 @class CBUUID;
@@ -384,16 +390,16 @@ enum RSCompanionState : NSInteger;
 
 SWIFT_PROTOCOL("_TtP18RapidScanCompanion19RSCompanionDelegate_")
 @protocol RSCompanionDelegate
-/// Called RSCompanion object updates its state.
+/// Called when the RSCompanion object updates its state
 /// <ul>
 ///   <li>
 ///     Parameters:
 ///   </li>
 ///   <li>
-///     name: The name or ID of RSCompanion object
+///     state: The current state. One of RSCompanionState.
 ///   </li>
 ///   <li>
-///     state: The current state. One of RSCompanionState
+///     uuid: The UUID of the Halo device
 ///   </li>
 /// </ul>
 - (void)rsCompanionState:(enum RSCompanionState)state uuid:(NSString * _Nonnull)uuid;
@@ -409,10 +415,64 @@ SWIFT_PROTOCOL("_TtP18RapidScanCompanion19RSCompanionDelegate_")
 ///     symbology: The symbology of the barcode
 ///   </li>
 ///   <li>
-///     serial: the serial of the Halo device
+///     serial: The serial of the Halo device
+///   </li>
+///   <li>
+///     verb: The current verb when the barcode was scanned
+///   </li>
+///   <li>
+///     uuid: The UUID of the Halo device
 ///   </li>
 /// </ul>
 - (void)rsCompanionDidReceiveBarcode:(NSString * _Nonnull)barcode symbology:(NSString * _Nonnull)symbology serial:(NSString * _Nonnull)serial verb:(NSString * _Nonnull)verb uuid:(NSString * _Nonnull)uuid;
+/// Called when a hardware button press is received
+/// <ul>
+///   <li>
+///     Parameters:
+///   </li>
+///   <li>
+///     button: The button pressed. One of RSButton.
+///   </li>
+///   <li>
+///     serial: The serial of the Halo device
+///   </li>
+///   <li>
+///     uuid: The UUID of the Halo device
+///   </li>
+/// </ul>
+- (void)rsCompanionDidReceiveButtonPress:(enum RSButton)button serial:(NSString * _Nonnull)serial uuid:(NSString * _Nonnull)uuid;
+/// Called when a RiSL button press is received
+/// <ul>
+///   <li>
+///     Parameters:
+///   </li>
+///   <li>
+///     button: The ID of the button pressed
+///   </li>
+///   <li>
+///     serial: The serial of the Halo device
+///   </li>
+///   <li>
+///     uuid: The UUID of the Halo device
+///   </li>
+/// </ul>
+- (void)rsCompanionDidReceiveRislButtonPress:(NSString * _Nonnull)button serial:(NSString * _Nonnull)serial uuid:(NSString * _Nonnull)uuid;
+/// Called when a Halo device selects a verb
+/// <ul>
+///   <li>
+///     Parameters:
+///   </li>
+///   <li>
+///     verb: The verb selected
+///   </li>
+///   <li>
+///     serial: The serial of the Halo device
+///   </li>
+///   <li>
+///     uuid: The UUID of the Halo device
+///   </li>
+/// </ul>
+- (void)rsCompanionDidReceiveVerbSelection:(NSString * _Nonnull)verb serial:(NSString * _Nonnull)serial uuid:(NSString * _Nonnull)uuid;
 @end
 
 /// RSCompanion state
