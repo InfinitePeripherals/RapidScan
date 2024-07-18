@@ -122,6 +122,10 @@ import _SwiftConcurrencyShims
   @discardableResult
   @objc public func sendRislCards(_ cards: [RapidScanCompanion.RSRislCard]) -> Swift.Bool
   @discardableResult
+  @objc public func sendRawRislToHalos(_ risl: Swift.String, uuids: [Swift.String]) -> Swift.Bool
+  @discardableResult
+  @objc public func sendRawRisl(_ risl: Swift.String) -> Swift.Bool
+  @discardableResult
   @objc public func sendClearCommandToHalos(_ uuids: [Swift.String]) -> Swift.Bool
   @discardableResult
   @objc public func sendClearCommand() -> Swift.Bool

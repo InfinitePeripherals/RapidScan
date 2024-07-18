@@ -37,15 +37,15 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KEm-Nd-YGf">
-                                <rect key="frame" x="134" y="119" width="125" height="44"/>
+                                <rect key="frame" x="84" y="119" width="225" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="4rp-Yr-ODP"/>
-                                    <constraint firstAttribute="width" constant="125" id="Jt4-re-AuE"/>
+                                    <constraint firstAttribute="width" constant="225" id="Jt4-re-AuE"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Clear cards"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Send raw RiSL commands"/>
                                 <connections>
-                                    <action selector="actionClear" destination="BYZ-38-t0r" eventType="touchUpInside" id="D39-wZ-rir"/>
+                                    <action selector="actionSendRawRisl" destination="BYZ-38-t0r" eventType="touchUpInside" id="bEh-5u-1bj"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qtz-wI-sXf">

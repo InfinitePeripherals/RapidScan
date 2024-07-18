@@ -39,6 +39,10 @@ class ViewController: UIViewController {
         self.companion.sendClearCommandToHalos(self.connectedHalos)
     }
     
+    @IBAction func actionSendRawRisl() {
+        self.companion.sendRawRisl("^PlaySound|Alert^Vibrate|2")
+    }
+    
     @IBAction func actionSendRandomCard() {
         let rislCard: RSRislCard
         

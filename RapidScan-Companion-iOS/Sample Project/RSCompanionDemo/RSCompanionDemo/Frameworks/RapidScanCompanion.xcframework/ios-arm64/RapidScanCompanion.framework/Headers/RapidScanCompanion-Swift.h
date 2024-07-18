@@ -353,6 +353,16 @@ SWIFT_CLASS("_TtC18RapidScanCompanion11RSCompanion")
 /// returns:
 /// A boolean indicating whether the risl message is constructed successfully and sent to RapidScan on Halo device.
 - (BOOL)sendRislCards:(NSArray<RSRislCard *> * _Nonnull)cards;
+/// Send a raw RiSL to RapidScan on Halo devices
+///
+/// returns:
+/// A boolean indicating whether the command was sent to RapidScan on Halo device.
+- (BOOL)sendRawRislToHalos:(NSString * _Nonnull)risl uuids:(NSArray<NSString *> * _Nonnull)uuids;
+/// Send a raw RiSL to RapidScan on the last active Halo device
+///
+/// returns:
+/// A boolean indicating whether the command was sent to RapidScan on Halo device.
+- (BOOL)sendRawRisl:(NSString * _Nonnull)risl;
 /// Send a clear screen command to RapidScan on connected Halo devices to clear all RislCards
 ///
 /// returns:

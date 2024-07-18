@@ -2734,6 +2734,80 @@
           },
           {
             "kind": "Function",
+            "name": "sendRawRislToHalos",
+            "printedName": "sendRawRislToHalos(_:uuids:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@RapidScanCompanion@objc(cs)RSCompanion(im)sendRawRislToHalos:uuids:",
+            "mangledName": "$s18RapidScanCompanion11RSCompanionC18sendRawRislToHalos_5uuidsSbSS_SaySSGtF",
+            "moduleName": "RapidScanCompanion",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendRawRisl",
+            "printedName": "sendRawRisl(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@RapidScanCompanion@objc(cs)RSCompanion(im)sendRawRisl:",
+            "mangledName": "$s18RapidScanCompanion11RSCompanionC11sendRawRislySbSSF",
+            "moduleName": "RapidScanCompanion",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "sendClearCommandToHalos",
             "printedName": "sendClearCommandToHalos(_:)",
             "children": [
@@ -4278,323 +4352,351 @@
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
-      "kind": "StringLiteral",
-      "offset": 7471,
-      "length": 8,
-      "value": "\"^Clear\""
-    },
-    {
-      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "BooleanLiteral",
-      "offset": 7832,
+      "offset": 7758,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "BooleanLiteral",
-      "offset": 7871,
+      "offset": 7797,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
-      "kind": "StringLiteral",
-      "offset": 8243,
-      "length": 8,
-      "value": "\"^Clear\""
-    },
-    {
-      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "BooleanLiteral",
-      "offset": 8479,
+      "offset": 8341,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "BooleanLiteral",
-      "offset": 8518,
+      "offset": 8380,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 8728,
+      "offset": 8771,
+      "length": 8,
+      "value": "\"^Clear\""
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9132,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9171,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "StringLiteral",
+      "offset": 9543,
+      "length": 8,
+      "value": "\"^Clear\""
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9779,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9818,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
+      "kind": "StringLiteral",
+      "offset": 10028,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 9267,
+      "offset": 10567,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 9294,
+      "offset": 10594,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 9321,
+      "offset": 10621,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 9345,
+      "offset": 10645,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 9367,
+      "offset": 10667,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "IntegerLiteral",
-      "offset": 9399,
+      "offset": 10699,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "IntegerLiteral",
-      "offset": 9436,
+      "offset": 10736,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "IntegerLiteral",
-      "offset": 9470,
+      "offset": 10770,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "IntegerLiteral",
-      "offset": 9503,
+      "offset": 10803,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "IntegerLiteral",
-      "offset": 9539,
+      "offset": 10839,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "IntegerLiteral",
-      "offset": 9575,
+      "offset": 10875,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 9789,
+      "offset": 11089,
       "length": 21,
       "value": "\"Invalid BLE message\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 9984,
+      "offset": 11284,
       "length": 39,
       "value": "\"Failed to convert JSON string to data\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "BooleanLiteral",
-      "offset": 10044,
+      "offset": 11344,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "Array",
-      "offset": 10235,
+      "offset": 11535,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 10345,
+      "offset": 11645,
       "length": 7,
       "value": "\"event\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 10398,
+      "offset": 11698,
       "length": 36,
       "value": "\"Event type missing or not a string\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "BooleanLiteral",
-      "offset": 10463,
+      "offset": 11763,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 10587,
+      "offset": 11887,
       "length": 8,
       "value": "\"serial\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 10641,
+      "offset": 11941,
       "length": 32,
       "value": "\"Serial missing or not a string\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "BooleanLiteral",
-      "offset": 10702,
+      "offset": 12002,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 10838,
+      "offset": 12138,
       "length": 7,
       "value": "\"value\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 10927,
+      "offset": 12227,
       "length": 14,
       "value": "\"verbSelected\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 10987,
+      "offset": 12287,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "BooleanLiteral",
-      "offset": 11169,
+      "offset": 12469,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 11225,
+      "offset": 12525,
       "length": 15,
       "value": "\"buttonPressed\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 11296,
+      "offset": 12596,
       "length": 8,
       "value": "\"button\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "BooleanLiteral",
-      "offset": 11566,
+      "offset": 12866,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 11646,
+      "offset": 12946,
       "length": 31,
       "value": "\"Invalid button value received\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 11760,
+      "offset": 13060,
       "length": 14,
       "value": "\"rislResponse\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 11829,
+      "offset": 13129,
       "length": 15,
       "value": "\"buttonPressed\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "BooleanLiteral",
-      "offset": 12031,
+      "offset": 13331,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 12121,
+      "offset": 13421,
       "length": 22,
       "value": "\"Unhandled event type\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 12235,
+      "offset": 13535,
       "length": 31,
       "value": "\"Error decoding JSON: \""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "StringLiteral",
-      "offset": 12265,
+      "offset": 13565,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "BooleanLiteral",
-      "offset": 12302,
+      "offset": 13602,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "IntegerLiteral",
-      "offset": 12719,
+      "offset": 14019,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "IntegerLiteral",
-      "offset": 12725,
+      "offset": 14025,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/lucasnetal\/Desktop\/AirScan\/Companion\/RapidScanCompanion-iOS\/RapidScanCompanion\/RSCompanion.swift",
       "kind": "Array",
-      "offset": 15907,
+      "offset": 17207,
       "length": 3,
       "value": "[0]"
     }
