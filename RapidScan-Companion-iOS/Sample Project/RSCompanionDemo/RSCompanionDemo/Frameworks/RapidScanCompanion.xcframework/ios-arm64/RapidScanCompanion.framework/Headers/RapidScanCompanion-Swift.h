@@ -653,6 +653,15 @@ SWIFT_CLASS("_TtC18RapidScanCompanion10RSRislCard")
 /// returns:
 /// RSRislCard object for affluent access
 - (RSRislCard * _Nonnull)vibrateWithIntensity:(NSInteger)intensity;
+/// Custom vibration for the Halo device
+/// \param pattern Array of integers representing the duration of each vibration segment in milliseconds
+///
+/// \param amplitudes Array of integers specifying the strength of the vibration for each corresponding segment (0-255)
+///
+///
+/// returns:
+/// RSRislCard object for affluent access
+- (RSRislCard * _Nonnull)vibrateCustomWithPattern:(NSArray<NSNumber *> * _Nonnull)pattern amplitudes:(NSArray<NSNumber *> * _Nonnull)amplitudes;
 - (RSRislCard * _Nonnull)clear;
 - (RSRislCard * _Nonnull)appendRawCommand:(NSString * _Nonnull)command;
 + (RSRislCard * _Nonnull)generateEchoCardWithBarcode:(NSString * _Nonnull)barcode symbology:(NSString * _Nonnull)symbology;

@@ -353,6 +353,16 @@ SWIFT_CLASS("_TtC18RapidScanCompanion11RSCompanion")
 /// returns:
 /// A boolean indicating whether the risl message is constructed successfully and sent to RapidScan on Halo device.
 - (BOOL)sendRislCards:(NSArray<RSRislCard *> * _Nonnull)cards;
+/// Send a raw RiSL to RapidScan on Halo devices
+///
+/// returns:
+/// A boolean indicating whether the command was sent to RapidScan on Halo device.
+- (BOOL)sendRawRislToHalos:(NSString * _Nonnull)risl uuids:(NSArray<NSString *> * _Nonnull)uuids;
+/// Send a raw RiSL to RapidScan on the last active Halo device
+///
+/// returns:
+/// A boolean indicating whether the command was sent to RapidScan on Halo device.
+- (BOOL)sendRawRisl:(NSString * _Nonnull)risl;
 /// Send a clear screen command to RapidScan on connected Halo devices to clear all RislCards
 ///
 /// returns:
@@ -643,6 +653,15 @@ SWIFT_CLASS("_TtC18RapidScanCompanion10RSRislCard")
 /// returns:
 /// RSRislCard object for affluent access
 - (RSRislCard * _Nonnull)vibrateWithIntensity:(NSInteger)intensity;
+/// Custom vibration for the Halo device
+/// \param pattern Array of integers representing the duration of each vibration segment in milliseconds
+///
+/// \param amplitudes Array of integers specifying the strength of the vibration for each corresponding segment (0-255)
+///
+///
+/// returns:
+/// RSRislCard object for affluent access
+- (RSRislCard * _Nonnull)vibrateCustomWithPattern:(NSArray<NSNumber *> * _Nonnull)pattern amplitudes:(NSArray<NSNumber *> * _Nonnull)amplitudes;
 - (RSRislCard * _Nonnull)clear;
 - (RSRislCard * _Nonnull)appendRawCommand:(NSString * _Nonnull)command;
 + (RSRislCard * _Nonnull)generateEchoCardWithBarcode:(NSString * _Nonnull)barcode symbology:(NSString * _Nonnull)symbology;

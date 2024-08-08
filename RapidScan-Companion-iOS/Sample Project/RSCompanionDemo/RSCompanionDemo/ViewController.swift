@@ -43,6 +43,17 @@ class ViewController: UIViewController {
         self.companion.sendRawRisl("^PlaySound|Alert^Vibrate|2")
     }
     
+    @IBAction func actionVibrateCustom() {
+        let card = RSRislCard(width: 290, height: 150)
+        card.setBackgroundColor("#004F94")
+        card.setFont(size: 40, color: "#FFFFFF", bold: true, underline: false)
+        card.textCenter(y: 10, text: "\\^Custom \\| Vibrate\\^")
+        card.vibrateCustom(pattern: [200, 100, 200, 100, 200], amplitudes: [255, 0, 255, 0, 255])
+        card.showCard()
+        
+        self.companion.sendRislCards([card])
+    }
+    
     @IBAction func actionSendRandomCard() {
         let rislCard: RSRislCard
         

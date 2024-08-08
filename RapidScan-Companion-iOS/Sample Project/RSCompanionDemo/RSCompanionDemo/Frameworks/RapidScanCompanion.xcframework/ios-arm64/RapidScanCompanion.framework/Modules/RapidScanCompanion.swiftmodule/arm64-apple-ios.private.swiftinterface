@@ -46,6 +46,8 @@ import _SwiftConcurrencyShims
   @discardableResult
   @objc public func vibrate(intensity: Swift.Int) -> RapidScanCompanion.RSRislCard
   @discardableResult
+  @objc public func vibrateCustom(pattern: [Swift.Int], amplitudes: [Swift.Int]) -> RapidScanCompanion.RSRislCard
+  @discardableResult
   @objc public func clear() -> RapidScanCompanion.RSRislCard
   @discardableResult
   @objc public func appendRawCommand(_ command: Swift.String) -> RapidScanCompanion.RSRislCard
