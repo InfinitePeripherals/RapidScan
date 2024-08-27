@@ -40,7 +40,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func actionSendRawRisl() {
-        self.companion.sendRawRisl("^PlaySound|Alert^Vibrate|2")
+        //self.companion.sendRawRisl("^PlaySound|CDMA_MED_L|200^Vibrate|2")
+        self.companion.sendRawRisl("^PlaySound|PROP_ACK^Vibrate|2")
     }
     
     @IBAction func actionVibrateCustom() {
@@ -52,6 +53,53 @@ class ViewController: UIViewController {
         card.showCard()
         
         self.companion.sendRislCards([card])
+    }
+    
+    @IBAction func actionPlaySound() {
+        let toneName = getNextToneName()
+        
+        let card = RSRislCard(width: 290, height: 150)
+        card.setBackgroundColor("#004F94")
+        card.setFont(size: 48, color: "#FFFFFF", bold: true, underline: false)
+        card.textCenter(y: 10, text: toneName)
+        card.playSound(sound: toneName, duration: 300)
+        card.showCard()
+        
+        self.companion.sendRislCards([card])
+    }
+    
+    func getNextToneName() -> String {
+        let toneNames = [
+            "CDMA_HIGH_L",
+            "CDMA_MED_L",
+            "CDMA_LOW_L",
+            "SUP_CONGESTION",
+            "SUP_CONFIRM",
+            "SUP_INTERCEPT",
+            "SUP_ERROR",
+            "SUP_CALL_WAITING",
+            "PROP_BEEP",
+            "PROP_PROMPT",
+            "PROP_BEEP2",
+            "PROP_ACK",
+            "PROP_NACK",
+            "CDMA_SOFT_ERROR_LITE",
+            "CDMA_CALLDROP_LITE",
+            "CDMA_CALL_SIGNAL_ISDN_INTERGROUP",
+            "CDMA_ALERT_CALL_GUARD",
+            "CDMA_PIP",
+            "CDMA_ONE_MIN_BEEP",
+            "CDMA_KEYPAD_VOLUME_KEY_LITE"
+        ]
+        
+        struct IndexHolder {
+            static var index = 0
+        }
+        
+        let toneName = toneNames[IndexHolder.index]
+        IndexHolder.index = (IndexHolder.index + 1) % toneNames.count
+        
+        return toneName
     }
     
     @IBAction func actionSendRandomCard() {

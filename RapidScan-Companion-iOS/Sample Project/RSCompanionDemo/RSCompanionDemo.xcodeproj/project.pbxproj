@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42B05F982C64D00A003C4B27 /* RapidScanCompanion.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42662C962C64CE8000BA65A1 /* RapidScanCompanion.xcframework */; };
-		42B05F992C64D00A003C4B27 /* RapidScanCompanion.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 42662C962C64CE8000BA65A1 /* RapidScanCompanion.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		423D11312C7E9ADC002EE0FF /* RapidScanCompanion.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 423D112F2C7E9AD7002EE0FF /* RapidScanCompanion.xcframework */; };
+		423D11322C7E9ADC002EE0FF /* RapidScanCompanion.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 423D112F2C7E9AD7002EE0FF /* RapidScanCompanion.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E7B835F729B7E13600032B4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B835F629B7E13600032B4B /* AppDelegate.swift */; };
 		E7B835F929B7E13600032B4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B835F829B7E13600032B4B /* SceneDelegate.swift */; };
 		E7B835FB29B7E13600032B4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B835FA29B7E13600032B4B /* ViewController.swift */; };
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				42B05F992C64D00A003C4B27 /* RapidScanCompanion.xcframework in Embed Frameworks */,
+				423D11322C7E9ADC002EE0FF /* RapidScanCompanion.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,7 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		42662C962C64CE8000BA65A1 /* RapidScanCompanion.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = RapidScanCompanion.xcframework; sourceTree = "<group>"; };
+		423D112F2C7E9AD7002EE0FF /* RapidScanCompanion.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = RapidScanCompanion.xcframework; sourceTree = "<group>"; };
 		E7B835F329B7E13600032B4B /* RSCompanionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSCompanionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B835F629B7E13600032B4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7B835F829B7E13600032B4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42B05F982C64D00A003C4B27 /* RapidScanCompanion.xcframework in Frameworks */,
+				423D11312C7E9ADC002EE0FF /* RapidScanCompanion.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +89,7 @@
 		E7B8361129B7E2F200032B4B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				42662C962C64CE8000BA65A1 /* RapidScanCompanion.xcframework */,
+				423D112F2C7E9AD7002EE0FF /* RapidScanCompanion.xcframework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";

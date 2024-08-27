@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name RapidScanCompanion
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name RapidScanCompanion
 import CoreImage.CIFilterBuiltins
 import CoreBluetooth
 import CoreImage
@@ -35,6 +34,10 @@ import _SwiftConcurrencyShims
   @objc public func text(_ text: Swift.String, verticlePosition: Swift.Int, alignment: RapidScanCompanion.RSRislTextAlignment, font: Swift.String?) -> RapidScanCompanion.RSRislCard
   @discardableResult
   @objc public func button(x: Swift.Int, y: Swift.Int, width: Swift.Int, height: Swift.Int, color: Swift.String, text: Swift.String, id: Swift.String) -> RapidScanCompanion.RSRislCard
+  @discardableResult
+  @objc public func playSound(sound: Swift.String) -> RapidScanCompanion.RSRislCard
+  @discardableResult
+  @objc public func playSound(sound: Swift.String, duration: Swift.Int) -> RapidScanCompanion.RSRislCard
   @discardableResult
   @objc public func playGoodSound() -> RapidScanCompanion.RSRislCard
   @discardableResult
