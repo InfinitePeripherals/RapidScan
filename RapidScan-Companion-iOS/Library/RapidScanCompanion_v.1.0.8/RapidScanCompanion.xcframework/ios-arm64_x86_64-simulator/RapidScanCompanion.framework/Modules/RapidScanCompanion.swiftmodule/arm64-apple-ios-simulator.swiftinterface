@@ -1,0 +1,154 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name RapidScanCompanion
+import CoreImage.CIFilterBuiltins
+import CoreBluetooth
+import CoreImage
+import Foundation
+@_exported import RapidScanCompanion
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class RSRislCard : ObjectiveC.NSObject {
+  @objc public init(width: Swift.Int, height: Swift.Int)
+  @discardableResult
+  @objc public func showCard() -> RapidScanCompanion.RSRislCard
+  @discardableResult
+  @objc public func saveCard(name: Swift.String) -> RapidScanCompanion.RSRislCard
+  @objc public class func loadCard(name: Swift.String) -> RapidScanCompanion.RSRislCard
+  @objc public func toString() -> Swift.String
+  @discardableResult
+  @objc public func setBackgroundColor(_ color: Swift.String) -> RapidScanCompanion.RSRislCard
+  @discardableResult
+  @objc public func setFont(size: Swift.Int, color: Swift.String?, bold: Swift.Bool, underline: Swift.Bool) -> RapidScanCompanion.RSRislCard
+  @discardableResult
+  @objc public func textCenter(y: Swift.Int, text: Swift.String) -> RapidScanCompanion.RSRislCard
+  @discardableResult
+  @objc public func textLeft(y: Swift.Int, text: Swift.String) -> RapidScanCompanion.RSRislCard
+  @discardableResult
+  @objc public func textRight(y: Swift.Int, text: Swift.String) -> RapidScanCompanion.RSRislCard
+  @objc public class func encodeFont(size: Swift.Int, color: Swift.String?, bold: Swift.Bool, underline: Swift.Bool) -> Swift.String
+  @discardableResult
+  @objc public func text(_ text: Swift.String, verticlePosition: Swift.Int, alignment: RapidScanCompanion.RSRislTextAlignment, font: Swift.String?) -> RapidScanCompanion.RSRislCard
+  @discardableResult
+  @objc public func button(x: Swift.Int, y: Swift.Int, width: Swift.Int, height: Swift.Int, color: Swift.String, text: Swift.String, id: Swift.String) -> RapidScanCompanion.RSRislCard
+  @discardableResult
+  @objc public func playSound(sound: Swift.String) -> RapidScanCompanion.RSRislCard
+  @discardableResult
+  @objc public func playSound(sound: Swift.String, duration: Swift.Int) -> RapidScanCompanion.RSRislCard
+  @discardableResult
+  @objc public func playGoodSound() -> RapidScanCompanion.RSRislCard
+  @discardableResult
+  @objc public func playGood2Sound() -> RapidScanCompanion.RSRislCard
+  @discardableResult
+  @objc public func playBadSound() -> RapidScanCompanion.RSRislCard
+  @discardableResult
+  @objc public func playAlertSound() -> RapidScanCompanion.RSRislCard
+  @discardableResult
+  @objc public func vibrate(intensity: Swift.Int) -> RapidScanCompanion.RSRislCard
+  @discardableResult
+  @objc public func vibrateCustom(pattern: [Swift.Int], amplitudes: [Swift.Int]) -> RapidScanCompanion.RSRislCard
+  @discardableResult
+  @objc public func clear() -> RapidScanCompanion.RSRislCard
+  @discardableResult
+  @objc public func appendRawCommand(_ command: Swift.String) -> RapidScanCompanion.RSRislCard
+  @objc deinit
+}
+@objc public enum RSRislTextAlignment : Swift.Int {
+  case left = 0
+  case center = 1
+  case right = 2
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol RSCompanionDelegate {
+  @objc func rsCompanionState(_ state: RapidScanCompanion.RSCompanionState, uuid: Swift.String)
+  @objc func rsCompanionDidReceiveBarcode(_ barcode: Swift.String, symbology: Swift.String, serial: Swift.String, verb: Swift.String, uuid: Swift.String)
+  @objc func rsCompanionDidReceiveImage(_ image: UIKit.UIImage)
+  @objc func rsCompanionDidReceiveButtonPress(_ button: RapidScanCompanion.RSButton, serial: Swift.String, uuid: Swift.String)
+  @objc func rsCompanionDidReceiveRislButtonPress(_ button: Swift.String, serial: Swift.String, uuid: Swift.String)
+  @objc func rsCompanionDidReceiveVerbSelection(_ verb: Swift.String, serial: Swift.String, uuid: Swift.String)
+}
+@objc public enum RSCompanionState : Swift.Int {
+  case unknown = -1
+  case notReady = 0
+  case ready = 1
+  case advertising = 2
+  case connected = 3
+  case disconnected = 4
+  case resetting = 5
+  case unauthorized = 6
+  case unsupported = 7
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum RSButton : Swift.Int, Swift.CustomStringConvertible {
+  case left = 0
+  case center = 1
+  case right = 2
+  public var description: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class RSCompanion : ObjectiveC.NSObject {
+  @objc public var delegate: (any RapidScanCompanion.RSCompanionDelegate)?
+  @objc final public let advertisementName: Swift.String
+  @objc public var serviceUUID: CoreBluetooth.CBUUID {
+    @objc get
+    @objc set
+  }
+  @objc public var pairingQRCodeValue: Swift.String {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc public init(serviceUUID: CoreBluetooth.CBUUID? = nil)
+  @discardableResult
+  @objc public func startAdvertising() -> Swift.Bool
+  @discardableResult
+  @objc public func stopAdvertising() -> Swift.Bool
+  @discardableResult
+  @objc public func sendRislCards(_ cards: [RapidScanCompanion.RSRislCard], toHalos uuids: [Swift.String]) -> Swift.Bool
+  @discardableResult
+  @objc public func sendRislCards(_ cards: [RapidScanCompanion.RSRislCard]) -> Swift.Bool
+  @discardableResult
+  @objc public func sendRawRislToHalos(_ risl: Swift.String, uuids: [Swift.String]) -> Swift.Bool
+  @discardableResult
+  @objc public func sendRawRisl(_ risl: Swift.String) -> Swift.Bool
+  @discardableResult
+  @objc public func sendClearCommandToHalos(_ uuids: [Swift.String]) -> Swift.Bool
+  @discardableResult
+  @objc public func sendClearCommand() -> Swift.Bool
+  @objc public func generatePairingQRCodeImage() -> UIKit.UIImage?
+  @objc deinit
+}
+extension RapidScanCompanion.RSCompanion : CoreBluetooth.CBPeripheralManagerDelegate {
+  @objc dynamic public func peripheralManagerDidUpdateState(_ peripheral: CoreBluetooth.CBPeripheralManager)
+  @objc dynamic public func peripheralManager(_ peripheral: CoreBluetooth.CBPeripheralManager, didAdd service: CoreBluetooth.CBService, error: (any Swift.Error)?)
+  @objc dynamic public func peripheralManager(_ peripheral: CoreBluetooth.CBPeripheralManager, central: CoreBluetooth.CBCentral, didSubscribeTo characteristic: CoreBluetooth.CBCharacteristic)
+  @objc dynamic public func peripheralManager(_ peripheral: CoreBluetooth.CBPeripheralManager, central: CoreBluetooth.CBCentral, didUnsubscribeFrom characteristic: CoreBluetooth.CBCharacteristic)
+  @objc dynamic public func peripheralManagerDidStartAdvertising(_ peripheral: CoreBluetooth.CBPeripheralManager, error: (any Swift.Error)?)
+  @objc dynamic public func peripheralManager(_ peripheral: CoreBluetooth.CBPeripheralManager, didReceiveWrite requests: [CoreBluetooth.CBATTRequest])
+  @objc dynamic public func peripheralManager(_ peripheral: CoreBluetooth.CBPeripheralManager, didReceiveRead request: CoreBluetooth.CBATTRequest)
+}
+extension RapidScanCompanion.RSRislTextAlignment : Swift.Equatable {}
+extension RapidScanCompanion.RSRislTextAlignment : Swift.Hashable {}
+extension RapidScanCompanion.RSRislTextAlignment : Swift.RawRepresentable {}
+extension RapidScanCompanion.RSCompanionState : Swift.Equatable {}
+extension RapidScanCompanion.RSCompanionState : Swift.Hashable {}
+extension RapidScanCompanion.RSCompanionState : Swift.RawRepresentable {}
+extension RapidScanCompanion.RSButton : Swift.Equatable {}
+extension RapidScanCompanion.RSButton : Swift.Hashable {}
+extension RapidScanCompanion.RSButton : Swift.RawRepresentable {}

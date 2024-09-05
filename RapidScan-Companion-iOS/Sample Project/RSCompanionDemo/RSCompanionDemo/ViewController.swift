@@ -250,6 +250,21 @@ extension ViewController: RSCompanionDelegate {
         self.sendBarcodeResponse(barcode: barcode, symbology: symbology)
     }
     
+    func rsCompanionDidReceiveImage(_ image: UIImage) {
+        prependLogText("Image Captured")
+        
+        self.qrCodeImageView.image = image
+        
+        let card = RSRislCard(width: 290, height: 150)
+        card.setBackgroundColor("#004F94")
+        card.setFont(size: 48, color: "#FFFFFF", bold: true, underline: false)
+        card.textCenter(y: 10, text: "Image Received")
+        card.playGood2Sound()
+        card.showCard()
+        
+        self.companion.sendRislCards([card])
+    }
+    
     func rsCompanionDidReceiveButtonPress(_ button: RapidScanCompanion.RSButton, serial: String, uuid: String) {
         prependLogText("Halo Button Pressed: \(button)")
     }
