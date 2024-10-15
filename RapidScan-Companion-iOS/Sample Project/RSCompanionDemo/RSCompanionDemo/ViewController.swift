@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var qrCodeImageView: UIImageView!
     @IBOutlet weak var companionStatus: UILabel!
     @IBOutlet weak var companionLog: UITextView!
+    @IBOutlet weak var toggleCameraButton: UIButton!
     
     var connectedHalos: [String] = [String]()
     
@@ -21,6 +22,8 @@ class ViewController: UIViewController {
     
     // You can optionally specify a UUID instead of using the randomly generated UUID RSCompanion provides
     let companion = RSCompanion(serviceUUID: CBUUID(string: "f7b5a183-772f-4990-8b36-b98a4c40f890"))
+    
+    var enableCameraButton = true
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,6 +35,24 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         // Display pairing QRCode
         self.qrCodeImageView.image = self.companion.generatePairingQRCodeImage()
+    }
+    
+    @IBAction func actionLaunchCamera() {
+        self.companion.sendRawRisl("^LaunchCamera")
+    }
+    
+    @IBAction func actionToggleCameraButton() {
+        if enableCameraButton {
+            self.companion.sendRawRisl("^EnableCameraButton")
+            
+            enableCameraButton = false
+            self.toggleCameraButton.setTitle("Disable Camera Button", for: UIControl.State.normal)
+        } else {
+            self.companion.sendRawRisl("^DisableCameraButton")
+            
+            enableCameraButton = true
+            self.toggleCameraButton.setTitle("Enable Camera Button", for: UIControl.State.normal)
+        }
     }
     
     @IBAction func actionClear() {
