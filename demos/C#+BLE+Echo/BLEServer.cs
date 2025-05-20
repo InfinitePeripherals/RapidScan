@@ -203,6 +203,7 @@ namespace BLETest
         //---------------------------------------------------------------------------------------------------------------------------------------
         private string GetConnectedRISLCard(string deviceID)
         {
+            /*
             //BluetoothLE#BluetoothLE94:e6:f7:2c:d3:18-71:d8:45:61:f1:66
             RISLCard risl = new RISLCard(290, 160);
             risl.Clear().SetBackColor(Color.Blue).SetForeColor(Color.White);
@@ -210,6 +211,14 @@ namespace BLETest
             risl.SetFont(32, true).TextCenter(48, "Connected!");
             risl.SetFont(28, false).TextCenter(115, GetFriendlyDeviceID(deviceID));
             risl.PlayGoodSound();
+            return risl.GetRISLAsJson();
+            */
+
+            RISLCard risl = new RISLCard(290, 130);
+            risl.Clear(); // Clear card history
+            risl.SetBackColor("#006400").SetForeColor(Color.White).SetFont(42, true);
+            risl.TextCenter(8, "DSS").TextCenter(58, "Connected");
+            risl.Vibrate(1).PlayGoodSound();
             return risl.GetRISLAsJson();
         }
         //---------------------------------------------------------------------------------------------------------------------------------------

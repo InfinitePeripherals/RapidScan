@@ -110,17 +110,10 @@ namespace BLETest
             return this;
         }
         //--------------------------------------------------------------------------------------------------------------------
-        public RISLCard Vibrate()
+        public RISLCard Vibrate(int seconds)
         {
-            //^Vibrate(1-4)
-            risl += "^Vibrate";
-            return this;
-        }
-        //--------------------------------------------------------------------------------------------------------------------
-        public RISLCard Vibrate2(int intensity)
-        {
-            //^Vibrate(1-4)
-            risl += "^Vibrate(" + intensity + ")";
+            //^Vibrate|<seconds>
+            risl += "^Vibrate|" + seconds;
             return this;
         }
         //--------------------------------------------------------------------------------------------------------------------

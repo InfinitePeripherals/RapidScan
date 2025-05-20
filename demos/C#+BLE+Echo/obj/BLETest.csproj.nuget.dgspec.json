@@ -1,19 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "\\\\Mac\\Home\\Desktop\\AirScan\\GitHub\\demos\\C#+BLE+Echo\\BLETest.csproj": {}
+    "Z:\\Desktop\\AirScan\\GitHub\\demos\\C#+BLE+Echo\\BLETest.csproj": {}
   },
   "projects": {
-    "\\\\Mac\\Home\\Desktop\\AirScan\\GitHub\\demos\\C#+BLE+Echo\\BLETest.csproj": {
+    "Z:\\Desktop\\AirScan\\GitHub\\demos\\C#+BLE+Echo\\BLETest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\AirScan\\GitHub\\demos\\C#+BLE+Echo\\BLETest.csproj",
+        "projectUniqueName": "Z:\\Desktop\\AirScan\\GitHub\\demos\\C#+BLE+Echo\\BLETest.csproj",
         "projectName": "BLETest",
-        "projectPath": "\\\\Mac\\Home\\Desktop\\AirScan\\GitHub\\demos\\C#+BLE+Echo\\BLETest.csproj",
+        "projectPath": "Z:\\Desktop\\AirScan\\GitHub\\demos\\C#+BLE+Echo\\BLETest.csproj",
         "packagesPath": "C:\\Users\\lucasnetal\\.nuget\\packages\\",
-        "outputPath": "\\\\Mac\\Home\\Desktop\\AirScan\\GitHub\\demos\\C#+BLE+Echo\\obj\\",
+        "outputPath": "Z:\\Desktop\\AirScan\\GitHub\\demos\\C#+BLE+Echo\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
+        "UsingMicrosoftNETSdk": false,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
@@ -33,6 +34,11 @@
           "net48": {
             "projectReferences": {}
           }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {

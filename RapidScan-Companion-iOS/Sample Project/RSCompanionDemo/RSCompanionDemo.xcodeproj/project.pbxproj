@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4246BAD22CBF11F000BA3F16 /* RapidScanCompanion.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4246BAD02CBF11EA00BA3F16 /* RapidScanCompanion.xcframework */; };
-		4246BAD32CBF11F000BA3F16 /* RapidScanCompanion.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4246BAD02CBF11EA00BA3F16 /* RapidScanCompanion.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		425827902DDD484800DB1769 /* RapidScanCompanion.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4258278E2DDD483E00DB1769 /* RapidScanCompanion.xcframework */; };
+		425827912DDD484800DB1769 /* RapidScanCompanion.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4258278E2DDD483E00DB1769 /* RapidScanCompanion.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E7B835F729B7E13600032B4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B835F629B7E13600032B4B /* AppDelegate.swift */; };
 		E7B835F929B7E13600032B4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B835F829B7E13600032B4B /* SceneDelegate.swift */; };
 		E7B835FB29B7E13600032B4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B835FA29B7E13600032B4B /* ViewController.swift */; };
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4246BAD32CBF11F000BA3F16 /* RapidScanCompanion.xcframework in Embed Frameworks */,
+				425827912DDD484800DB1769 /* RapidScanCompanion.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,7 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4246BAD02CBF11EA00BA3F16 /* RapidScanCompanion.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = RapidScanCompanion.xcframework; sourceTree = "<group>"; };
+		4258278E2DDD483E00DB1769 /* RapidScanCompanion.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = RapidScanCompanion.xcframework; sourceTree = "<group>"; };
 		E7B835F329B7E13600032B4B /* RSCompanionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSCompanionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B835F629B7E13600032B4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7B835F829B7E13600032B4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4246BAD22CBF11F000BA3F16 /* RapidScanCompanion.xcframework in Frameworks */,
+				425827902DDD484800DB1769 /* RapidScanCompanion.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +89,7 @@
 		E7B8361129B7E2F200032B4B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4246BAD02CBF11EA00BA3F16 /* RapidScanCompanion.xcframework */,
+				4258278E2DDD483E00DB1769 /* RapidScanCompanion.xcframework */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -315,7 +315,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GTKPK5RP37;
+				DEVELOPMENT_TEAM = 3T7334Z492;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RSCompanionDemo/Info.plist;
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth is required to communicate with HaloRing";
@@ -346,7 +346,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GTKPK5RP37;
+				DEVELOPMENT_TEAM = 3T7334Z492;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RSCompanionDemo/Info.plist;
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth is required to communicate with HaloRing";

@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     //let companion = RSCompanion()
     
     // You can optionally specify a UUID instead of using the randomly generated UUID RSCompanion provides
-    let companion = RSCompanion(serviceUUID: CBUUID(string: "f7b5a183-772f-4990-8b36-b98a4c40f890"))
+    let companion = RSCompanion(serviceUUID: CBUUID(string: "f7b5a183-772f-4990-8b36-b98a4c40f891"))
     
     var enableCameraButton = true
 
@@ -35,6 +35,10 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         // Display pairing QRCode
         self.qrCodeImageView.image = self.companion.generatePairingQRCodeImage()
+    }
+    
+    @IBAction func actionSendRislWithButton() {
+        self.companion.sendRawRisl("^StartCard|290|210^CardBackColor|#000000^Font|48|Bold|#FFFFFF^TextC|6|Package^TextC|62|damaged?^Font|44|Bold|#FFFFFF^Button|1|140|138|70|#008000|YES|yesDmg^Button|150|140|138|70|#FF0000|NO|noDmg^Vibrate|1^PlaySound|Bad^ShowCard")
     }
     
     @IBAction func actionLaunchCamera() {

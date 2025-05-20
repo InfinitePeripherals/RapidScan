@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "\\\\Mac\\Home\\Desktop\\AirScan\\GitHub\\demos\\C#\u002BBLE\u002BEcho\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54E14DC0-09D3-4644-A069-13F4C8F3689D}|BLETest.csproj|\\\\Mac\\Home\\Desktop\\AirScan\\GitHub\\demos\\C#\u002BBLE\u002BEcho\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E14DC0-09D3-4644-A069-13F4C8F3689D}|BLETest.csproj|\\\\Mac\\Home\\Desktop\\AirScan\\GitHub\\demos\\C#\u002BBLE\u002BEcho\\formbleexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E14DC0-09D3-4644-A069-13F4C8F3689D}|BLETest.csproj|\\\\mac\\home\\desktop\\airscan\\github\\demos\\c#\u002Bble\u002Becho\\bleserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54E14DC0-09D3-4644-A069-13F4C8F3689D}|BLETest.csproj|\\\\mac\\home\\desktop\\airscan\\github\\demos\\c#\u002Bble\u002Becho\\formbleexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BLEServer.cs",
+              "DocumentMoniker": "\\\\Mac\\Home\\Desktop\\AirScan\\GitHub\\demos\\C#\u002BBLE\u002BEcho\\BLEServer.cs",
+              "RelativeDocumentMoniker": "BLEServer.cs",
+              "ToolTip": "\\\\Mac\\Home\\Desktop\\AirScan\\GitHub\\demos\\C#\u002BBLE\u002BEcho\\BLEServer.cs",
+              "RelativeToolTip": "BLEServer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-09T11:17:27.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormBLEExample.cs [Design]",
+              "DocumentMoniker": "\\\\Mac\\Home\\Desktop\\AirScan\\GitHub\\demos\\C#\u002BBLE\u002BEcho\\FormBLEExample.cs",
+              "RelativeDocumentMoniker": "FormBLEExample.cs",
+              "ToolTip": "\\\\Mac\\Home\\Desktop\\AirScan\\GitHub\\demos\\C#\u002BBLE\u002BEcho\\FormBLEExample.cs [Design]*",
+              "RelativeToolTip": "FormBLEExample.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-09T11:17:27.301Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormBLEExample.cs",
+              "DocumentMoniker": "\\\\Mac\\Home\\Desktop\\AirScan\\GitHub\\demos\\C#\u002BBLE\u002BEcho\\FormBLEExample.cs",
+              "RelativeDocumentMoniker": "FormBLEExample.cs",
+              "ToolTip": "\\\\Mac\\Home\\Desktop\\AirScan\\GitHub\\demos\\C#\u002BBLE\u002BEcho\\FormBLEExample.cs*",
+              "RelativeToolTip": "FormBLEExample.cs*",
+              "ViewState": "AgIAADEAAAAAAAAAAAAcwEkAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-09T11:17:27.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "\\\\Mac\\Home\\Desktop\\AirScan\\GitHub\\demos\\C#\u002BBLE\u002BEcho\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "\\\\Mac\\Home\\Desktop\\AirScan\\GitHub\\demos\\C#\u002BBLE\u002BEcho\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-09T11:17:27.406Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
