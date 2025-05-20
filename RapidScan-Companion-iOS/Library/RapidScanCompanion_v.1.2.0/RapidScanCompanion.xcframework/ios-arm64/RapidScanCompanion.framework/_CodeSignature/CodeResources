@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/RapidScanCompanion-Swift.h</key>
 		<data>
-		PHylMIp0LCfj7IVv4Zf0kvdyXeE=
+		MxbKqtfLKCgqs5URFllK6Q/Qn88=
 		</data>
 		<key>Headers/RapidScanCompanion.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		p8gINHgRX495xkRD42EsGaxQorM=
+		tvxKc+DPgVfxVWSvuFwiq9L0y7o=
 		</data>
-		<key>Modules/RapidScanCompanion.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>Modules/RapidScanCompanion.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
 		j8sC2D/KeQGvCeh2DHCqBj9b0Fk=
 		</data>
-		<key>Modules/RapidScanCompanion.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/RapidScanCompanion.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		waY7TJs7ggmzr26JsCFwpx/v2lc=
+		QAzMRlCbat5cbx/ru1Df85SefP0=
 		</data>
-		<key>Modules/RapidScanCompanion.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/RapidScanCompanion.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		WpDcEy92WTwrAC3rTx4RITY5sws=
+		5zKHFvIqIWjNM0j6jLqixTGMPYs=
 		</data>
-		<key>Modules/RapidScanCompanion.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/RapidScanCompanion.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		waY7TJs7ggmzr26JsCFwpx/v2lc=
+		QAzMRlCbat5cbx/ru1Df85SefP0=
 		</data>
-		<key>Modules/RapidScanCompanion.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/RapidScanCompanion.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Y3AO8Cz02u1+reA1iXDe9n3w/z4=
+		Av5+Xza8i+5k2QXivarDs799aE0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bY5W8oxLfdUhMdvC4QbfiKmjkq6yW00jukLlTRM76VE=
+			r/clzjdu6sd4cBB9fhIDqCeqJEk4V0uk0KPcbKrxRoc=
 			</data>
 		</dict>
 		<key>Headers/RapidScanCompanion.h</key>
@@ -57,39 +57,39 @@
 			N4uR/Ao+lm02Tz3NMTe1i/nICu31f9hM41kApsDUQaA=
 			</data>
 		</dict>
-		<key>Modules/RapidScanCompanion.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>Modules/RapidScanCompanion.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			t7LfQSskkTavoUqpnQyFBDCKm7202UsmiiDKhjkMqtE=
 			</data>
 		</dict>
-		<key>Modules/RapidScanCompanion.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/RapidScanCompanion.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tb31JbXjANIoUmtRU2N/I68uITrD98tUQelv+fsaz8Y=
+			rufc3KKHFgchW+hGJLM7dmCxrjmmdav2LcSxrWEOJkY=
 			</data>
 		</dict>
-		<key>Modules/RapidScanCompanion.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/RapidScanCompanion.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tmNoo0i/vgQjfuNNZ2TQKn66aPbcNksnJfjJYCQ6Xtk=
+			IRBW0oeUpOBoiPQq/GSaP/GceGL2xjMBXVPhDe0QA9w=
 			</data>
 		</dict>
-		<key>Modules/RapidScanCompanion.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/RapidScanCompanion.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tb31JbXjANIoUmtRU2N/I68uITrD98tUQelv+fsaz8Y=
+			rufc3KKHFgchW+hGJLM7dmCxrjmmdav2LcSxrWEOJkY=
 			</data>
 		</dict>
-		<key>Modules/RapidScanCompanion.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/RapidScanCompanion.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U+AdYgYNWK+jkxsQxy11zI//D2QYWBnYmt2mlnYObbs=
+			uY3CSH1jrba83nJc85AXOArfz7FfBkaC5mRZ30g+NhI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
